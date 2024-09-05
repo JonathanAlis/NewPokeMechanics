@@ -1,0 +1,2337 @@
+# NewPokeMechanics
+playing with new mechanics. getting charizrd a dragon without including the third type
+
+# Pokémon Move Categories by Action
+
+## 1. Punching Moves
+
+**Explanation:** 
+# Punching Moves
+
+# Punching Moves
+
+| Punching Move        | Type     | Category   | Base Power | +20% Power | +40% Power |
+|----------------------|----------|------------|------------|------------|------------|
+| Bullet Punch         | Steel    | Physical   | 40         | 48         | 56         |
+| Comet Punch          | Normal   | Physical   | 18 (per hit) | 21.6 (per hit) | 25.2 (per hit) |
+| Dizzy Punch          | Normal   | Physical   | 70         | 84         | 98         |
+| Double Iron Bash     | Steel    | Physical   | 60 (per hit) | 72 (per hit) | 84 (per hit) |
+| Drain Punch          | Fighting | Physical   | 75         | 90         | 105        |
+| Dynamic Punch        | Fighting | Physical   | 100        | 120        | 140        |
+| Fire Punch           | Fire     | Physical   | 75         | 90         | 105        |
+| Focus Punch          | Fighting | Physical   | 150        | 180        | 210        |
+| Hammer Arm           | Fighting | Physical   | 100        | 120        | 140        |
+| Headlong Rush        | Ground   | Physical   | 120        | 144        | 168        |
+| Ice Hammer           | Ice      | Physical   | 100        | 120        | 140        |
+| Ice Punch            | Ice      | Physical   | 75         | 90         | 105        |
+| Jet Punch            | Water    | Physical   | 60         | 72         | 84         |
+| Mach Punch           | Fighting | Physical   | 40         | 48         | 56         |
+| Mega Punch           | Normal   | Physical   | 80         | 96         | 112        |
+| Meteor Mash          | Steel    | Physical   | 90         | 108        | 126        |
+| Plasma Fists         | Electric | Physical   | 100        | 120        | 140        |
+| Power-Up Punch       | Fighting | Physical   | 40         | 48         | 56         |
+| Rage Fist            | Ghost    | Physical   | 50         | 60         | 70         |
+| Shadow Punch         | Ghost    | Physical   | 60         | 72         | 84         |
+| Sky Uppercut         | Fighting | Physical   | 85         | 102        | 119        |
+| Surging Strikes      | Water    | Physical   | 25 (per hit) | 30 (per hit) | 35 (per hit) |
+| Thunder Punch        | Electric | Physical   | 75         | 90         | 105        |
+| Wicked Blow          | Dark     | Physical   | 80         | 96         | 112        |
+
+## 2. Sound Moves
+
+# Sound-Based Moves
+
+| Move                 | Type     | Category   | Base Power | +20% Power | +50% Power |
+|----------------------|----------|------------|------------|------------|------------|
+| Growl                | Normal   | Status     | N/A        | N/A        | N/A        |
+| Roar                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sing                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Supersonic           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Screech              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Snore                | Normal   | Special    | 50         | 60         | 75         |
+| Perish Song          | Normal   | Status     | N/A        | N/A        | N/A        |
+| Heal Bell            | Normal   | Status     | N/A        | N/A        | N/A        |
+| Uproar               | Normal   | Special    | 90         | 108        | 135        |
+| Hyper Voice          | Normal   | Special    | 90         | 108        | 135        |
+| Metal Sound          | Steel    | Status     | N/A        | N/A        | N/A        |
+| Grass Whistle        | Grass    | Status     | N/A        | N/A        | N/A        |
+| Howl                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Bug Buzz             | Bug      | Special    | 90         | 108        | 135        |
+| Chatter              | Flying   | Special    | 65         | 78         | 97.5       |
+| Round                | Normal   | Special    | 60         | 72         | 90         |
+| Echoed Voice         | Normal   | Special    | 40         | 48         | 60         |
+| Relic Song           | Normal   | Special    | 75         | 90         | 112.5      |
+| Snarl                | Dark     | Special    | 55         | 66         | 82.5       |
+| Noble Roar           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Disarming Voice      | Fairy    | Special    | 40         | 48         | 60         |
+| Parting Shot         | Dark     | Status     | N/A        | N/A        | N/A        |
+| Boomburst            | Normal   | Special    | 140        | 168        | 210        |
+| Confide              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sparkling Aria       | Water    | Special    | 90         | 108        | 135        |
+| Clanging Scales      | Dragon   | Special    | 110        | 132        | 165        |
+| Clangorous Soulblaze | Dragon   | Special    | 185        | 222        | 277.5      |
+| Clangorous Soul      | Dragon   | Status     | N/A        | N/A        | N/A        |
+| Overdrive            | Electric | Special    | 80         | 96         | 120        |
+| Eerie Spell          | Psychic  | Special    | 80         | 96         | 120        |
+| Torch Song           | Fire     | Special    | 80         | 96         | 120        |
+| Alluring Voice       | Fairy    | Special    | 40         | 48         | 60         |
+| Psychic Noise        | Psychic  | Special    | 80         | 96         | 120        |
+
+## 3. Biting moves
+
+
+| Move            | Type     | Category | Base Power | +20% Power | +50% Power |
+|-----------------|----------|----------|------------|------------|------------|
+| Bite            | Dark     | Physical | 60         | 72         | 90         |
+| Crunch          | Dark     | Physical | 80         | 96         | 120        |
+| Fire Fang       | Fire     | Physical | 65         | 78         | 97.5       |
+| Fishious Rend   | Water    | Physical | 85         | 102        | 127.5      |
+| Hyper Fang      | Normal   | Physical | 80         | 96         | 120        |
+| Ice Fang        | Ice      | Physical | 65         | 78         | 97.5       |
+| Jaw Lock        | Dark     | Physical | 80         | 96         | 120        |
+| Poison Fang     | Poison   | Physical | 50         | 60         | 75         |
+| Psychic Fangs   | Psychic  | Physical | 85         | 102        | 127.5      |
+| Thunder Fang    | Electric | Physical | 65         | 78         | 97.5       |
+
+## 4. Slicing Moves
+
+# Slicing and Blade-Based Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Aerial Ace       | Flying    | Physical | 60         | 72         | 90         |
+| Air Cutter       | Flying    | Special  | 60         | 72         | 90         |
+| Air Slash        | Flying    | Special  | 75         | 90         | 112.5      |
+| Aqua Cutter      | Water     | Physical | 70         | 84         | 105        |
+| Behemoth Blade   | Steel     | Physical | 100        | 120        | 150        |
+| Bitter Blade     | Fire      | Physical | 90         | 108        | 135        |
+| Ceaseless Edge   | Dark      | Physical | 65         | 78         | 97.5       |
+| Cross Poison     | Poison    | Physical | 70         | 84         | 105        |
+| Cut              | Normal    | Physical | 50         | 60         | 75         |
+| Fury Cutter      | Bug       | Physical | 40         | 48         | 60         |
+| Kowtow Cleave    | Dark      | Physical | 85         | 102        | 127.5      |
+| Leaf Blade       | Grass     | Physical | 90         | 108        | 135        |
+| Mighty Cleave    | Fighting  | Physical | 85         | 102        | 127.5      |
+| Night Slash      | Dark      | Physical | 70         | 84         | 105        |
+| Population Bomb  | Normal    | Physical | 20         | 24         | 30         |
+| Psyblade         | Psychic   | Physical | 80         | 96         | 120        |
+| Psycho Cut       | Psychic   | Physical | 70         | 84         | 105        |
+| Razor Leaf       | Grass     | Physical | 55         | 66         | 82.5       |
+| Razor Shell      | Water     | Physical | 75         | 90         | 112.5      |
+| Sacred Sword     | Fighting  | Physical | 90         | 108        | 135        |
+| Secret Sword     | Fighting  | Special  | 85         | 102        | 127.5      |
+| Slash            | Normal    | Physical | 70         | 84         | 105        |
+| Solar Blade      | Grass     | Physical | 125        | 150        | 187.5      |
+| Stone Axe        | Rock      | Physical | 65         | 78         | 97.5       |
+| Tachyon Cutter   | Steel     | Physical | 60         | 72         | 90         |
+| X-Scissor        | Bug       | Physical | 80         | 96         | 120        |
+
+## 5. Aura and Pulse Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Aura Sphere      | Fighting  | Special  | 80         | 96         | 120        |
+| Dark Pulse       | Dark      | Special  | 80         | 96         | 120        |
+| Dragon Pulse     | Dragon    | Special  | 85         | 102        | 127.5      |
+| Heal Pulse       | Psychic   | Status   | N/A        | N/A        | N/A        |
+| Origin Pulse     | Water     | Special  | 110        | 132        | 165        |
+| Terrain Pulse    | Electric  | Special  | 50         | 60         | 75         |
+| Water Pulse      | Water     | Special  | 60         | 72         | 90         |
+
+## 6. Ball and bomb moves
+
+# Ball and Bomb Moves
+
+# Ball and Bomb Moves
+
+# Ball and Bomb Moves
+
+| Move             | Type      | Category | Base Power        | +20% Power          | +50% Power          |
+|------------------|-----------|----------|-------------------|---------------------|---------------------|
+| Acid Spray       | Poison    | Special  | 40                | 48                  | 60                  |
+| Aura Sphere      | Fighting  | Special  | 80                | 96                  | 120                 |
+| Barrage          | Bug       | Physical | 15                | 18                  | 22.5                |
+| Beak Blast       | Flying    | Physical | 100               | 120                 | 150                 |
+| Bullet Seed      | Grass     | Physical | 25                | 30                  | 37.5                |
+| Egg Bomb          | Bomb      | Special  | 100               | 120                 | 150                 |
+| Electro Ball     | Electric  | Special  | 40–150            | 48–180              | 60–225              |
+| Energy Ball      | Grass     | Special  | 90                | 108                 | 135                 |
+| Focus Blast      | Fighting  | Special  | 120               | 144                 | 180                 |
+| Gyro Ball        | Steel     | Physical | 50                | 60                  | 75                  |
+| Ice Ball         | Ice       | Physical | 30                | 36                  | 45                  |
+| Magnet Bomb      | Steel     | Physical | 60                | 72                  | 90                  |
+| Mist Ball        | Psychic   | Special  | 70                | 84                  | 105                 |
+| Mud Bomb         | Ground    | Special  | 65                | 78                  | 97.5                |
+| Octazooka        | Water     | Special  | 65                | 78                  | 97.5                |
+| Pollen Puff      | Bug       | Special  | 90                | 108                 | 135                 |
+| Pyro Ball        | Fire      | Physical | 120               | 144                 | 180                 |
+| Rock Blast       | Rock      | Physical | 25                | 30                  | 37.5                |
+| Rock Wrecker     | Rock      | Physical | 150               | 180                 | 225                 |
+| Searing Shot     | Fire      | Special  | 100               | 120                 | 150                 |
+| Seed Bomb        | Grass     | Physical | 80                | 96                  | 120                 |
+| Shadow Ball      | Ghost     | Special  | 80                | 96                  | 120                 |
+| Sludge Bomb      | Poison    | Special  | 90                | 108                 | 135                 |
+| Syrup Bomb       | Poison    | Special  | 80                | 96                  | 120                 |
+| Weather Ball     | Weather   | Special  | 50–100            | 60–120              | 75–150              |
+| Zap Cannon       | Electric  | Special  | 120               | 144                 | 180                 |
+
+## 7. Wind moves
+
+# Wind Moves
+
+| Move                | Type      | Category | Base Power        | +20% Power          | +50% Power          |
+|---------------------|-----------|----------|-------------------|---------------------|---------------------|
+| Aeroblast           | Flying    | Special  | 100               | 120                 | 150                 |
+| Air Cutter          | Flying    | Special  | 55                | 66                  | 82.5                |
+| Bleakwind Storm     | Flying    | Special  | 120               | 144                 | 180                 |
+| Blizzard            | Ice       | Special  | 110               | 132                 | 165                 |
+| Fairy Wind          | Fairy     | Special  | 40                | 48                  | 60                  |
+| Gust                | Flying    | Special  | 40                | 48                  | 60                  |
+| Heat Wave           | Fire      | Special  | 100               | 120                 | 150                 |
+| Hurricane           | Flying    | Special  | 110               | 132                 | 165                 |
+| Icy Wind            | Ice       | Special  | 55                | 66                  | 82.5                |
+| Petal Blizzard      | Grass     | Special  | 90                | 108                 | 135                 |
+| Sandsear Storm      | Fire      | Special  | 120               | 144                 | 180                 |
+| Sandstorm           | Rock      | Status   | N/A               | N/A                 | N/A                 |
+| Springtide Storm    | Fairy     | Special  | 120               | 144                 | 180                 |
+| Tailwind            | Flying    | Status   | N/A               | N/A                 | N/A                 |
+| Twister             | Dragon    | Special  | 40                | 48                  | 60                  |
+| Whirlwind           | Flying    | Status   | N/A               | N/A                 | N/A                 |
+| Wildbolt Storm      | Electric  | Special  | 120               | 144                 | 180                 |
+
+## 8. Multistrike moves
+
+# Move Power Calculations
+
+| Move               | Type      | Category | Base Power | +20% Power | +50% Power |
+|--------------------|-----------|----------|------------|------------|------------|
+| Bonemerang         | Ground    | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Double Hit         | Normal    | Physical | 35 (per hit, 2 hits) | 42 (per hit) | 52.5 (per hit) |
+| Double Iron Bash   | Steel     | Physical | 60 (per hit, 2 hits) | 72 (per hit) | 90 (per hit) |
+| Double Kick        | Fighting  | Physical | 30 (per hit, 2 hits) | 36 (per hit) | 45 (per hit) |
+| Dragon Darts       | Dragon    | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Dual Chop          | Dragon    | Physical | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Dual Wingbeat      | Flying    | Physical | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Gear Grind         | Steel     | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Surging Strikes    | Water     | Physical | 25 (per hit, 3 hits) | 30 (per hit) | 37.5 (per hit) |
+| Tachyon Cutter     | Steel     | Special  | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Triple Dive        | Water     | Physical | 30 (per hit, 3 hits) | 36 (per hit) | 45 (per hit) |
+| Twin Beam          | Psychic   | Special  | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Twineedle          | Bug       | Physical | 25 (per hit, 2 hits) | 30 (per hit) | 37.5 (per hit) |
+| Water Shuriken     | Water     | Special  | 20 (per hit, 3 hits) | 24 (per hit) | 30 (per hit) |
+| Arm Thrust         | Fighting  | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Barrage            | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Bone Rush          | Ground    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Bullet Seed        | Grass     | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Comet Punch        | Normal    | Physical | 18 (per hit, 5 hits) | 21.6 (per hit) | 27 (per hit) |
+| Double Slap        | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Fury Attack        | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Fury Swipes        | Normal    | Physical | 18 (per hit, 5 hits) | 21.6 (per hit) | 27 (per hit) |
+| Icicle Spear       | Ice       | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Pin Missile        | Bug       | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Rock Blast         | Rock      | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Scale Shot         | Dragon    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Spike Cannon       | Normal    | Physical | 20 (per hit, 5 hits) | 24 (per hit) | 30 (per hit) |
+| Tail Slap          | Normal    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Water Shuriken*    | Water     | Special  | 15 (per hit, 3 hits) | 18 (per hit) | 22.5 (per hit) |
+| Triple Axel        | Ice       | Physical | 20 (per hit, 3 hits) | 24 (per hit) | 30 (per hit) |
+| Triple Kick        | Fighting  | Physical | 10 (per hit, 3 hits) | 12 (per hit) | 15 (per hit) |
+| Population Bomb    | Normal    | Physical | 20 (per hit, 10 hits) | 24 (per hit) | 30 (per hit) |
+| Beat Up            | Dark      | Physical | 10 (per hit, varies) | 12 (per hit) | 15 (per hit) |
+
+## 9. HP-Draining Moves
+
+| Move              | Type      | Category | Base Power         | +20% Power          | +50% Power          |
+|-------------------|-----------|----------|--------------------|---------------------|---------------------|
+| Absorb            | Grass     | Special  | 20                 | 24                  | 30                  |
+| Bitter Blade      | Fire      | Physical | 50                 | 60                  | 75                  |
+| Bouncy Bubble     | Water     | Special  | 50                 | 60                  | 75                  |
+| Drain Punch       | Fighting  | Physical | 60                 | 72                  | 90                  |
+| Draining Kiss      | Fairy     | Special  | 50                 | 60                  | 75                  |
+| Dream Eater       | Ghost     | Special  | 100                | 120                 | 150                 |
+| Giga Drain        | Grass     | Special  | 75                 | 90                  | 112.5               |
+| Horn Leech        | Grass     | Physical | 75                 | 90                  | 112.5               |
+| Leech Life        | Bug       | Physical | 20                 | 24                  | 30                  |
+| Leech Seed        | Grass     | Status   | N/A                | N/A                 | N/A                 |
+| Matcha Gotcha     | Grass     | Special  | 50                 | 60                  | 75                  |
+| Mega Drain        | Grass     | Special  | 40                 | 48                  | 60                  |
+| Oblivion Wing     | Flying    | Special  | 80                 | 96                  | 120                 |
+| Parabolic Charge  | Electric  | Special  | 50                 | 60                  | 75                  |
+
+# Moves that Restore HP
+
+| Move            | Type        | Category | Base Power | +20% Power | +50% Power | Notes                                                                                  |
+|-----------------|-------------|----------|------------|------------|------------|----------------------------------------------------------------------------------------|
+| Aqua Ring       | Water        | Status   | —          | —          | —          | Restores 1/16 of the user's maximum HP each turn.                                      |
+| Floral Healing  | Grass        | Special  | —          | —          | —          | Restores 50% of the user's maximum HP and doubles the effect if on Grassy Terrain.      |
+| G-Max Finale    | Fairy        | Special  | —          | —          | —          | Deals damage and restores 50% of HP to allies if G-Max Finale is used in Max Raid Battles. |
+| Grassy Terrain  | Grass        | Status   | —          | —          | —          | Restores 1/16 of HP each turn to Pokémon on the ground and boosts Grass-type moves.      |
+| Heal Pulse      | Psychic      | Special  | —          | —          | —          | Restores 50% of the target's maximum HP.                                               |
+| Healing Wish    | Psychic      | Status   | —          | —          | —          | The user faints and restores the HP of the next Pokémon sent out to full HP.            |
+| Ingrain          | Grass        | Status   | —          | —          | —          | Restores 1/16 of the user's maximum HP each turn while the user is on the field.         |
+| Jungle Healing  | Grass        | Special  | —          | —          | —          | Restores 50% of the user's HP and removes all status conditions.                       |
+| Leech Seed      | Grass        | Status   | —          | —          | —          | Drains 1/8 of the target's HP each turn and restores it to the user.                   |
+| Life Dew         | Water        | Special  | —          | —          | —          | Restores 1/4 of the HP of all allied Pokémon.                                          |
+| Lunar Dance      | Psychic      | Status   | —          | —          | —          | The user faints, restoring the HP and status conditions of the next Pokémon sent out.  |
+| Pain Split       | Ghost        | Special  | —          | —          | —          | The user and target's HP are averaged out.                                             |
+| Pollen Puff      | Bug          | Special  | 90         | 108        | 135        | Restores 50% of the target's maximum HP if used on an ally.                           |
+| Present          | Normal       | Special  | —          | —          | —          | Has a 50% chance to restore 1/4 of the target's maximum HP, otherwise deals damage.   |
+| Revival Blessing | Fairy        | Status   | —          | —          | —          | Revives a fainted ally with half of its maximum HP.                                     |
+| Wish             | Psychic      | Status   | —          | —          | —          | Restores 50% of the user's maximum HP two turns later.                                 |
+
+## 10. Moves with Recoil
+
+# Moves with Recoil Damage
+
+| Move            | Type      | Category | Base Power | +20% Power | +50% Power | Recoil Damage     | Notes                                                        |
+|-----------------|-----------|----------|------------|------------|------------|-------------------|--------------------------------------------------------------|
+| Brave Bird      | Flying    | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+| Chloroblast     | Grass     | Special  | 150        | 180        | 225        | 1/2 of user's maximum HP |                                                              |
+| Double-Edge     | Normal    | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+| Flare Blitz     | Fire      | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of burning the target.                            |
+| Head Smash      | Rock      | Physical | 150        | 180        | 225        | 1/2 of damage dealt |                                                              |
+| Light of Ruin   | Fairy     | Special  | 140        | 168        | 210        | 1/2 of damage dealt | This move is exclusive to a Pokémon that has never been legitimately available. |
+| Self-Destruct   | Normal    | Physical | 150        | 180        | 225        | 4/5 of user's maximum HP |                                                              |
+| Shadow End      | Shadow    | Physical | 120        | 144        | 180        | 1/2 of user's current HP |                                                              |
+| Shadow Rush     | Shadow    | Physical | 90         | 108        | 135        | 1/16 of user's maximum HP | 95% chance to land a critical hit when the Pokémon is in Hyper Mode |
+| Struggle        | Normal    | Physical | 50         | 60         | 75         | 1/4 of user's maximum HP | Hits Ghost-type Pokémon in Pokémon Stadium and from Generation II onward |
+| Volt Tackle     | Electric  | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of paralyzing the target                           |
+| Wave Crash      | Water     | Physical | 120        | 144        | 180        | 1/3 of damage dealt | Also raises the user's action speed in Legends: Arceus |
+| Wild Charge     | Electric  | Physical | 90         | 108        | 135        | 1/4 of damage dealt |                                                              |
+| Wood Hammer     | Grass     | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+
+
+##Other: Priority, weak, adicional effects, physycal, special, status, concact moves, 
+
+
+# New categories
+
+## 1. Kicking Moves
+
+**Explanation:** Moves that involve kicking actions, often involving powerful leg strikes.
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power | Notes                                          |
+|------------------|-----------|----------|------------|------------|------------|------------------------------------------------|
+| Axe Kick         | Fighting  | Physical | 120        | 144        | 180        | 30% chance to cause flinching.                |
+| Blaze Kick       | Fire      | Physical | 85         | 102        | 127.5      | 10% chance to burn the target.                |
+| Double Kick      | Fighting  | Physical | 30         | 36         | 45         | Hits twice.                                    |
+| High Jump Kick   | Fighting  | Physical | 130        | 156        | 195        | 10% chance to miss and hurt the user.         |
+| Jump Kick        | Fighting  | Physical | 100        | 120        | 150        | 10% chance to miss and hurt the user.         |
+| Low Kick         | Fighting  | Physical | 20–120     | 24–144     | 30–180     | Power depends on the target's weight.         |
+| Mega Kick        | Fighting  | Physical | 120        | 144        | 180        | 5% chance to miss.                            |
+| Rolling Kick     | Fighting  | Physical | 60         | 72         | 90         | Has a 30% chance to cause flinching.          |
+| Stomp            | Normal    | Physical | 65         | 78         | 97.5       | 30% chance to cause flinching.                |
+| Thunderous Kick  | Electric  | Physical | 120        | 144        | 180        | 10% chance to paralyze the target.            |
+| Triple Arrows    | Grass     | Physical | 50 (x3)    | 60 (x3)    | 75 (x3)    | Hits 3 times, each hit has a 30% chance to cause a stat reduction. |
+| Triple Axel      | Ice       | Physical | 20 (x3)    | 24 (x3)    | 30 (x3)    | Hits 3 times.                                 |
+| Triple Kick      | Fighting  | Physical | 10 (x3)    | 12 (x3)    | 15 (x3)    | Hits 3 times.                                 |
+| Pyro Ball        | Fire      | Physical | 130        | 156        | 195        | 10% chance to burn the target.                |
+| Aqua Step        | Water     | Physical | 60         | 72         | 90         | Boosts the user's Speed stat.                 |
+| Trop Kick        | Grass     | Physical | 70         | 84         | 105        | Lowers the target's Attack stat.              |
+
+
+## 2. Cosmic Moves
+
+# Cosmic Moves
+
+| Move              | Type        | Category | Base Power  | +20% Power | +50% Power | Notes                                             |
+|-------------------|-------------|----------|-------------|------------|------------|---------------------------------------------------|
+| Draco Meteor      | Dragon      | Special  | 130         | 156        | 195        | Lowers the user's Special Attack.                |
+| Meteor Mash       | Steel       | Physical | 100         | 120        | 150        | 10% chance to raise the user's Attack stat.      |
+| Cosmic Power      | Psychic     | Status   | -           | -          | -          | Raises the user's Defense and Special Defense.   |
+| Cosmic Punch      | Cosmic      | Physical | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Moonblast         | Fairy       | Special  | 95          | 114        | 142.5      | 30% chance to lower the target's Attack stat.    |
+| Meteor Beam       | Rock        | Special  | 120         | 144        | 180        | Requires a turn to charge.                      |
+| Gravity           | Psychic     | Status   | -           | -          | -          | Makes Flying-type Pokémon and levitating Pokémon susceptible to Ground-type moves. |
+| Roar of Time      | Dragon      | Special  | 150         | 180        | 225        | User must recharge after using this move.       |
+| Spacial Rend      | Dragon      | Special  | 100         | 120        | 150        | 20% chance to land a critical hit.              |
+| Meteor Assault    | Fighting    | Physical | 120         | 144        | 180        | User must recharge after using this move.       |
+| Dark Void         | Dark        | Status   | -           | -          | -          | Puts the target to sleep.                        |
+| Blood Moon        | Dark        | Special  | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Moonlight         | Fairy       | Status   | -           | -          | -          | Restores HP based on the time of day in battle. |
+| Moongeist Beam    | Ghost       | Special  | 100         | 120        | 150        | Ignores the target's abilities.                 |
+| Morning Sun       | Fire        | Status   | -           | -          | -          | Restores HP based on the time of day in battle. |
+| Sunsteel Strike   | Steel       | Physical | 100         | 120        | 150        | 10% chance to lower the target's Defense stat.  |
+| Swift             | Normal      | Special  | 60          | 72         | 90         | Never misses.                                   |
+| Prismatic Laser   | Psychic     | Special  | 160         | 192        | 240        | Requires a turn to charge.                      |
+| Photon Geyser      | Psychic     | Special  | 100         | 120        | 150        | Power depends on the higher of the user's Attack or Special Attack. |
+| Lunar Blessing     | Psychic     | Status   | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Lunar Dance        | Psychic     | Status   | -           | -          | -          | Restores the HP and PP of the user's team.      |
+| Hyperspace Hole    | Psychic     | Special  | 80          | 96         | 120        | Ignores the target's abilities.                 |
+| Hyperspace Fury    | Psychic     | Special  | 100         | 120        | 150        | Ignores the target's abilities.                 |
+| Eternabeam        | Dragon/Steel| Special  | 160         | 192        | 240        | Requires a turn to charge.                      |
+
+### Notes:
+- **Draco Meteor** and **Meteor Beam** have high base power with a requirement for a turn to charge or recoil.
+- **Moonblast** and **Moongeist Beam** have special effects like lowering the target’s stats or ignoring abilities.
+- **Cosmic Power** and **Gravity** are status moves with various effects on battle dynamics.
+- **Swift** is notable for never missing, while **Prismatic Laser** and **Eternabeam** are powerful but require charging turns.
+
+
+## 3. # Light Moves
+
+| Move                       | Type         | Category | Base Power | +20% Power | +50% Power | Notes                                             |
+|----------------------------|--------------|----------|------------|------------|------------|---------------------------------------------------|
+| Aurora Beam                | Ice          | Special  | 65         | 78         | 97.5       | 10% chance to lower the target's Attack stat.    |
+| Aurora Veil                | Ice          | Status   | -          | -          | -          | Reduces damage from Physical and Special moves.  |
+| Dazzling Gleam             | Fairy        | Special  | 80         | 96         | 120        | 20% chance to lower the target's Special Attack. |
+| Flash                      | Electric     | Special  | 70         | 84         | 105        | 30% chance to lower the target's Accuracy.       |
+| Diamond Storm              | Rock         | Physical | 100        | 120        | 150        | 50% chance to raise the user's Defense stat.     |
+| Lumina Crash               | Fairy        | Special  | 100        | 120        | 150        | 50% chance to lower the target's Special Defense.|
+| Flash Cannon               | Steel        | Special  | 80         | 96         | 120        | 10% chance to lower the target's Special Defense.|
+| Glitzy Glow                | Fairy        | Special  | 100        | 120        | 150        | 50% chance to lower the target's Special Defense.|
+| Judgement                  | Cosmic       | Special  | 100        | 120        | 150        | Damage type depends on the Plate or Z-Crystal.   |
+| Light of Ruin              | Fairy        | Special  | 140        | 168        | 210        | 50% recoil damage to the user.                  |
+| Light Screen               | Psychic      | Status   | -          | -          | -          | Reduces damage from Special moves.              |
+| Light That Burns the Sky   | Fire         | Special  | 150        | 180        | 225        | Requires a turn to charge.                      |
+| Luster Purge               | Psychic      | Special  | 70         | 84         | 105        | 50% chance to lower the target's Special Defense.|
+| Tail Glow                  | Bug          | Status   | -          | -          | -          | Raises the user's Special Attack stat.          |
+| Mirror Coat                | Water        | Special  | -          | -          | -          | Reflects damage back to the attacker.           |
+| Mirror Shot                | Steel        | Special  | 65         | 78         | 97.5       | 30% chance to lower the target's Accuracy.       |
+| Mirror Move                | Flying       | Status   | -          | -          | -          | Copies the last move used by the target.        |
+| Moonlight                  | Fairy        | Status   | -          | -          | -          | Restores HP based on the time of day in battle. |
+| Power Gem                  | Rock         | Special  | 70         | 84         | 105        | -                                                 |
+| Prismatic Laser            | Psychic      | Special  | 160        | 192        | 240        | Requires a turn to charge.                      |
+| Reflect                    | Psychic      | Status   | -          | -          | -          | Reduces damage from Physical moves.             |
+| Signal Beam                | Bug          | Special  | 75         | 90         | 112.5      | 10% chance to confuse the target.               |
+| Solar Beam                 | Grass        | Special  | 120        | 144        | 180        | Requires a turn to charge.                      |
+| Solar Blade                | Grass        | Physical | 125        | 150        | 187.5      | Requires a turn to charge.                      |
+
+## 4. Wing Based Moves
+
+# Wing-Based Moves
+
+| Move          | Type   | Category | Base Power | +20% Power | +50% Power | Notes                     |
+|---------------|--------|----------|------------|------------|------------|---------------------------|
+| Wing Attack    | Flying | Physical | 60         | 72         | 90         | -                         |
+| Steel Wing      | Steel  | Physical | 60         | 72         | 90         | -                         |
+| Air Slash      | Flying | Special  | 75         | 90         | 112.5      | 30% chance to cause flinching. |
+| Dual Wing-Beat      | Flying | Physical | 40         | 48         | 60         | -                         |
+| Sky Attack     | Flying | Physical | 140        | 168        | 210        | Requires a turn to charge. |
+| Esper Wing     | Flying | Special | 80        | 96        | 120        | |
+
+## 5. Piercing moves:
+
+
+Você disse:
+I have ideas for now mechanics of pokemon, I want to group pokemon by new characteristics, like the design says that it would be a good kicker, or one good with crunches. and I want to create a list of pokemon for each categoty. Also, each move would receive the categories.
+How is the best way to present my ideas and organize them? Markdown? excel? 
+O ChatGPT disse:
+ChatGPT
+Memória atualizada
+Both Markdown and Excel have their strengths, depending on what you need:
+
+Markdown:
+Pros:
+
+Great for documentation and readability.
+Easy to create well-structured tables and lists.
+Good for creating a visual representation of your ideas that you can easily share and update.
+Cons:
+
+Less interactive than Excel.
+Not ideal for large datasets or complex sorting/filtering.
+Excel:
+Pros:
+
+Excellent for handling large datasets.
+Allows for sorting, filtering, and complex calculations.
+Easy to manage and visualize data with built-in charts.
+Cons:
+
+Less suitable for detailed documentation and explanations.
+Requires sharing files or using cloud-based platforms for collaboration.
+Recommendation:
+For Organization and Documentation:
+
+Use Markdown to create a well-organized document that includes:
+Sections for each Pokémon category (e.g., good kickers, good crunchers).
+Tables or lists for Pokémon in each category.
+Sections for each move with associated categories.
+For Data Management and Analysis:
+
+Use Excel to create detailed spreadsheets where you can:
+List Pokémon and categorize them by their characteristics.
+Track and manage moves and their categories.
+Perform data analysis, sorting, and filtering.
+You can also use both tools in tandem: manage data in Excel and create a Markdown document to present and explain your findings.
+
+
+
+
+
+
+Você disse:
+do you suggest other options? Like, the tables that the pages like bulbapedia have have a good design, can I go web in a easy way?
+O ChatGPT disse:
+ChatGPT
+Absolutely! If you're interested in a web-based solution, there are several options that can provide a good balance between organization, interactivity, and presentation. Here are a few:
+
+1. Google Sheets / Google Docs:
+Pros:
+
+Cloud-based, so easily shareable and collaborative.
+Google Sheets allows for interactive tables and charts.
+Google Docs can be used to create well-structured documentation with embedded tables and images.
+Cons:
+
+Limited to Google's formatting and functionality.
+2. Notion:
+Pros:
+
+Flexible and powerful for creating databases, tables, and documents.
+Good for integrating various types of content (text, tables, images, etc.).
+Supports collaboration and easy sharing.
+Cons:
+
+May have a learning curve for advanced features.
+3. Airtable:
+Pros:
+
+Combines the features of a spreadsheet with database functionality.
+User-friendly interface for creating and managing complex datasets.
+Allows for rich field types (e.g., attachments, links) and views (e.g., grid, calendar).
+Cons:
+
+More complex than a simple spreadsheet but less than a full database.
+4. Web Development Tools:
+Pros:
+
+Offers the most flexibility and customization.
+Tools like WordPress or static site generators (e.g., Jekyll, Hugo) can create a professional-looking site with tables and visualizations.
+HTML/CSS for custom design.
+Cons:
+
+Requires some knowledge of web development.
+More effort to set up and maintain compared to other options.
+5. Markdown with GitHub Pages:
+Pros:
+
+Allows you to host a website for free with GitHub Pages.
+Easy to use Markdown for content creation.
+Can integrate with Jekyll for more advanced features.
+Cons:
+
+Requires some knowledge of GitHub and basic web development.
+For a user-friendly and easily shareable solution, Google Sheets or Notion might be your best bet. If you’re looking for more control and customization, exploring Airtable or even setting up a simple website with Markdown and GitHub Pages could be worthwhile.
+
+
+
+
+
+
+Você disse:
+Can I create markdown that point to other markdowns, like a page system?
+O ChatGPT disse:
+ChatGPT
+Yes, you can create a page system with Markdown by using links to point from one Markdown file to another. This approach is commonly used in documentation systems and static site generators. Here’s how you can do it:
+
+1. Basic Markdown Links
+You can create hyperlinks in Markdown that point to other Markdown files:
+
+markdown
+Copiar código
+[Link to Another Page](another-page.md)
+2. Using Relative Paths
+If you are organizing a directory of Markdown files, you can use relative paths to link to files within the same directory or subdirectories:
+
+markdown
+Copiar código
+[Link to Subpage](subdirectory/subpage.md)
+3. Creating a Table of Contents
+You can create a table of contents that links to different sections or pages:
+
+markdown
+Copiar código
+## Table of Contents
+- [Introduction](introduction.md)
+- [Chapter 1](chapter1.md)
+- [Chapter 2](chapter2.md)
+4. Using Static Site Generators
+Static site generators like Jekyll, Hugo, or MkDocs can help create more sophisticated documentation systems. They allow you to organize Markdown files into a structured website with navigation menus and links.
+
+Jekyll: Integrates with GitHub Pages for free hosting.
+Hugo: Known for its speed and flexibility.
+MkDocs: Focuses on project documentation.
+5. GitHub Pages
+If you use GitHub Pages with Jekyll or another static site generator, you can automatically build and deploy a site that uses your Markdown files as content:
+
+Create a repository on GitHub.
+Add Markdown files and configure your site (if using Jekyll, create a _config.yml file).
+Push changes to GitHub and enable GitHub Pages in the repository settings.
+This will generate a live website where your Markdown files are rendered as web pages.
+
+Example Structure
+markdown
+Copiar código
+docs/
+  index.md
+  introduction.md
+  chapter1.md
+  chapter2.md
+  images/
+    image1.png
+In index.md:
+
+markdown
+Copiar código
+# Welcome
+
+- [Introduction](introduction.md)
+- [Chapter 1](chapter1.md)
+- [Chapter 2](chapter2.md)
+In chapter1.md:
+
+markdown
+Copiar código
+# Chapter 1
+
+Go back to [Introduction](introduction.md) or [Home](index.md).
+This way, you can create a navigable system of interconnected pages using Markdown files.
+
+
+
+
+
+
+Você disse:
+Do you know the categories of pokemon moves? can you make a markdown that displays tables with any of them, and for each, a explanation what it does, and the list of moves, please?
+O ChatGPT disse:
+ChatGPT
+Certainly! Pokémon moves are categorized into several types, including their general effects and their category in battle. Here’s a Markdown template that displays categories of Pokémon moves, explanations of what they do, and lists of moves for each category:
+
+markdown
+Copiar código
+# Pokémon Move Categories
+
+## 1. Physical Moves
+
+**Explanation:** Physical moves deal damage based on the Pokémon's Attack stat and the target's Defense stat. These moves generally involve physical contact.
+
+| Move Name  | Type     | Description                                     |
+|-------------|----------|-------------------------------------------------|
+| Tackle      | Normal   | A basic physical attack.                        |
+| Earthquake  | Ground   | Causes a quake that damages all adjacent foes. |
+| Iron Tail   | Steel    | Slams the foe with a steel-hard tail.           |
+
+## 2. Special Moves
+
+**Explanation:** Special moves deal damage based on the Pokémon's Special Attack stat and the target's Special Defense stat. These moves generally involve energy or elemental effects.
+
+| Move Name  | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Flamethrower | Fire    | Spews a stream of fire that burns the target.   |
+| Thunderbolt  | Electric | Fires a bolt of lightning at the target.        |
+| Psychic      | Psychic  | Attacks the foe with psychic energy.            |
+
+## 3. Status Moves
+
+**Explanation:** Status moves do not deal damage but instead affect the target or the user in various ways, such as inflicting status conditions or boosting stats.
+
+| Move Name  | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Growl       | Normal   | Lowers the target's Attack stat.                 |
+| Toxic       | Poison   | Inflicts a bad poison that worsens over time.    |
+| Recover     | Normal   | Restores the user's HP.                          |
+
+## 4. Spread Moves
+
+**Explanation:** Spread moves affect multiple targets in a double battle or in multi-target battles, such as hitting all opponents or allies.
+
+| Move Name  | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Surf        | Water    | Creates a wave that hits all adjacent foes.     |
+| Earthquake  | Ground   | Causes a quake that damages all adjacent foes.  |
+| Heat Wave   | Fire    | Emits a scorching heat wave that may burn foes. |
+
+## 5. Priority Moves
+
+**Explanation:** Priority moves allow the user to act before other Pokémon in battle, regardless of speed.
+
+| Move Name  | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Quick Attack | Normal  | A swift attack that strikes first.              |
+| Extreme Speed | Normal | A move that guarantees the user will strike first. |
+| Aqua Jet    | Water    | A water attack that moves with high priority.   |
+
+## 6. Charge Moves
+
+**Explanation:** Charge moves require a turn to charge up before unleashing a more powerful effect.
+
+| Move Name  | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Solar Beam  | Grass    | Charges up and then releases a powerful beam of light. |
+| Hyper Beam  | Normal   | Requires charging and then releases a powerful beam. |
+| Dragon Pulse | Dragon  | Gathers energy and releases a dragon-shaped pulse. |
+
+Feel free to expand or adjust the lists and categories according to your needs!
+This Markdown template includes six common categories of Pokémon moves, explanations, and example moves for each category. You can add or modify entries as needed based on the specifics of the Pokémon moves you want to include.
+
+
+
+
+
+
+Você disse:
+Great, but I am thinking in cathegories more like kicking, or punching. Whic are the moves are produced by kick, like pyro ball, aqua step, trop kick, double kick.
+Also, moves that use the tail, or slicing moves, sound moves, etc
+O ChatGPT disse:
+ChatGPT
+Memória atualizada
+Got it! Here’s a Markdown template with categories based on the specific actions of moves, like kicking, punching, using the tail, slicing, and sound-based moves:
+
+markdown
+Copiar código
+# Pokémon Move Categories by Action
+
+## 1. Kicking Moves
+
+**Explanation:** Moves that involve kicking actions, often involving powerful leg strikes.
+
+| Move Name   | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Pyro Ball    | Fire     | Kicks a ball of fire at the opponent.            |
+| Aqua Step    | Water    | Kicks with a water-infused step, often used in battle. |
+| Trop Kick    | Grass    | Delivers a strong kick with a tropical flair.    |
+| Double Kick  | Fighting | Performs a double kick, hitting twice in a row.  |
+
+## 2. Punching Moves
+
+**Explanation:** Moves that involve punching actions, typically utilizing the Pokémon's arms or fists.
+
+| Move Name   | Type     | Description                                      |
+|-------------|----------|--------------------------------------------------|
+| Thunder Punch | Electric | Delivers an electric-charged punch.              |
+| Dynamic Punch | Fighting | A powerful punch with a chance to confuse the foe. |
+| Ice Punch    | Ice      | A punch imbued with icy energy that may freeze.  |
+| Fire Punch   | Fire     | A fiery punch that may burn the target.         |
+
+## 3. Tail Moves
+
+**Explanation:** Moves that involve using the Pokémon’s tail for attacks.
+
+| Move Name    | Type     | Description                                      |
+|--------------|----------|--------------------------------------------------|
+| Iron Tail    | Steel    | Slams the foe with a tail hardened like iron.    |
+| Tail Whip    | Normal   | Wags the tail to lower the opponent's Defense.   |
+| Dragon Tail  | Dragon   | Uses the tail to strike, potentially forcing the foe to switch out. |
+| Stomping Tantrum | Ground | Stomps the ground with the tail, causing a tremor. |
+
+## 4. Slicing Moves
+
+**Explanation:** Moves that involve slicing or cutting actions, often with sharp appendages or elements.
+
+| Move Name    | Type     | Description                                      |
+|--------------|----------|--------------------------------------------------|
+| Leaf Blade   | Grass    | A sharp-edged leaf strike that may critically hit. |
+| Night Slash  | Dark     | Slashes the foe with a sharp claw, with a high critical hit rate. |
+| Sacred Sword | Fighting | A cutting attack that ignores the target's Defense. |
+| Air Slash    | Flying   | Uses a blade of air to cut the target, with a chance to flinch. |
+
+## 5. Sound-Based Moves
+
+**Explanation:** Moves that use sound waves or sonic energy to attack or affect the opponent.
+
+| Move Name    | Type     | Description                                      |
+|--------------|----------|--------------------------------------------------|
+| Hyper Voice  | Normal   | Emits a loud voice to damage all adjacent foes. |
+| Roar         | Normal   | Uses a terrifying roar to force the foe to switch out. |
+| Screech      | Normal   | Emits a harsh sound that sharply lowers the foe's Defense. |
+| Uproar       | Normal   | Creates an uproar that lasts for several turns, causing damage. |
+
+Feel free to adjust the moves and categories according to the specifics of your project or the Pokémon universe you're working with!
+
+
+
+
+
+Você disse:
+there are boomerangue moves, or alike, not counting bonemerangue?
+O ChatGPT disse:
+ChatGPT
+Yes, there are a few moves that involve a boomerang-like action, though they are less common than other types of moves. Here are some examples of moves with a boomerang-like or returning effect:
+
+Boomerang-Like Moves
+Explanation: Moves that involve a boomerang-like action, often returning to the user after hitting the target or having a similar trajectory.
+
+Move Name	Type	Description
+Boomerang	Rock	Throws a boomerang that hits the opponent twice.
+Bone Club	Ground	Uses a bone as a club to strike the target, though it does not have a returning effect like Boomerang.
+Bone Rush	Ground	Uses a bone to strike the foe multiple times in a row. While not exactly a boomerang move, it involves a repeated bone attack.
+Additional Information
+Boomerang is a Rock-type move introduced in Generation I. It throws a boomerang that returns to hit the target again.
+Bone Club and Bone Rush are Ground-type moves that use a bone as a weapon, but they don’t have the returning effect characteristic of boomerang moves.
+These moves are quite specific, and while Boomerang is the most notable with the exact boomerang-like action, there are other moves that involve repeated or multi-hit attacks but not necessarily with a returning effect.
+
+
+
+
+
+
+Você disse:
+put it in a makrdown tabel: 'Float': '20% resistance to Ground moves',
+        'Cosmic': '20% damage increase to Cosmic moves',
+        'Adipose': '20% resistance to Fire and Ice damage',
+        'Hard': '20% resistance to contact moves',
+        'Multiple': '20% damage increase to multi-target moves',
+        'Water Float': '20% resistance to Water moves',
+        'Cruncher': '20% damage increase to bite moves',
+        'Slasher': '20% damage increase to slicing moves',
+        'Multiple': '20% damage increase to multi-target moves',
+        'Shell': '20% resistance to non-contact physical moves',
+        'Blobby': '20% damage resitance to special moves',
+        'Spiker': '20% damage increase to pointy moves',
+        'Shell': '20% resistance to priority moves',
+        'Serpentine': '20% resistance to priority moves',
+        'Horned': '20% damage increase to horned moves',
+        'Sound': '20% damage increase to sound moves',
+        'Kicker': '20% damage increase to kicking moves',
+        'Incisor': '20% damage increase to super fang (it causes 60% of remaining HP)',
+        'Puncher': '20% damage increase to punch moves',
+        'Light': '20% damage increase to light moves',
+        'Fluffy': '20% resistance to ????? moves',
+        'Shooter': '20% damage increase to shooting moves',
+        'Exploder': '20% damage increase to exploding moves',
+        'Wind': '20% damage increase to wind moves',
+        'Cocoon': '20% resistance to ??? moves',
+        
+        'Grass': '20% damage increase to Grass moves',
+        'Poison': '20% damage increase to Poison moves',
+        'Fire': '20% damage increase to Fire moves',
+        'Water': '20% damage increase to Water moves',
+        'Bug': '20% damage increase to Bug moves',
+        'Normal': '20% damage increase to Normal moves',
+        'Electric': '20% damage increase to Electric moves',
+        'Ground': '20% damage increase to Ground moves',
+        'Rock': '20% damage increase to Rock moves',
+        'Psychic': '20% damage increase to Psychic moves',
+        'Fighting': '20% damage increase to Fighting moves',
+        'Flying': '20% damage increase to Flying moves',
+        'Ghost': '20% damage increase to Ghost moves',
+        'Ice': '20% damage increase to Ice moves',
+        'Dragon': '20% damage increase to Dragon moves',
+        'Dark': '20% damage increase to Dark moves',
+        'Steel': '20% damage increase to Steel moves',
+        'Fairy'
+O ChatGPT disse:
+ChatGPT
+Here's a Markdown table with the provided information:
+
+markdown
+Copiar código
+# Pokémon Move Modifiers
+
+| Modifier     | Effect                                               |
+|--------------|------------------------------------------------------|
+| Float        | 20% resistance to Ground moves                      |
+| Cosmic       | 20% damage increase to Cosmic moves                 |
+| Adipose      | 20% resistance to Fire and Ice damage               |
+| Hard         | 20% resistance to contact moves                     |
+| Multiple     | 20% damage increase to multi-target moves           |
+| Water Float  | 20% resistance to Water moves                       |
+| Cruncher     | 20% damage increase to bite moves                   |
+| Slasher      | 20% damage increase to slicing moves                |
+| Shell        | 20% resistance to non-contact physical moves        |
+| Blobby       | 20% damage resistance to special moves              |
+| Spiker       | 20% damage increase to pointy moves                 |
+| Serpentine   | 20% resistance to priority moves                    |
+| Horned       | 20% damage increase to horned moves                 |
+| Sound        | 20% damage increase to sound moves                  |
+| Kicker       | 20% damage increase to kicking moves                |
+| Incisor      | 20% damage increase to Super Fang (causes 60% of remaining HP) |
+| Puncher      | 20% damage increase to punch moves                  |
+| Light        | 20% damage increase to light moves                  |
+| Shooter      | 20% damage increase to shooting moves               |
+| Exploder     | 20% damage increase to exploding moves              |
+| Wind         | 20% damage increase to wind moves                   |
+| Cocoon       | 20% resistance to ??? moves                         |
+
+### Type Modifiers
+
+| Type       | Effect                                               |
+|------------|------------------------------------------------------|
+| Grass      | 20% damage increase to Grass moves                  |
+| Poison     | 20% damage increase to Poison moves                 |
+| Fire       | 20% damage increase to Fire moves                   |
+| Water      | 20% damage increase to Water moves                  |
+| Bug        | 20% damage increase to Bug moves                    |
+| Normal     | 20% damage increase to Normal moves                 |
+| Electric   | 20% damage increase to Electric moves               |
+| Ground     | 20% damage increase to Ground moves                 |
+| Rock       | 20% damage increase to Rock moves                   |
+| Psychic    | 20% damage increase to Psychic moves                |
+| Fighting   | 20% damage increase to Fighting moves               |
+| Flying     | 20% damage increase to Flying moves                 |
+| Ghost      | 20% damage increase to Ghost moves                  |
+| Ice        | 20% damage increase to Ice moves                    |
+| Dragon     | 20% damage increase to Dragon moves                 |
+| Dark       | 20% damage increase to Dark moves                   |
+| Steel      | 20% damage increase to Steel moves                  |
+| Fairy      | 20% damage increase to Fairy moves                  |
+Feel free to adjust any of the effects or add more information as needed!
+
+
+
+
+
+
+Você disse:
+how to make a markdown that has two columns, onw static and other that I can scroll
+O ChatGPT disse:
+ChatGPT
+Markdown itself doesn't support complex layout features like fixed and scrollable columns directly. However, you can achieve this effect by using HTML within Markdown, which is supported by many Markdown renderers.
+
+Here’s an example of how you can create a static column and a scrollable column using HTML within Markdown:
+
+markdown
+Copiar código
+# Two Column Layout
+
+<div style="display: flex;">
+  <div style="flex: 1; padding: 10px; border-right: 2px solid #ddd;">
+    <!-- Static Column -->
+    <h3>Static Column</h3>
+    <p>This column remains fixed in place.</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+    </ul>
+  </div>
+  
+  <div style="flex: 2; padding: 10px; overflow-y: auto; height: 400px;">
+    <!-- Scrollable Column -->
+    <h3>Scrollable Column</h3>
+    <p>This column can be scrolled if the content exceeds the height.</p>
+    <ul>
+      <li>Content 1</li>
+      <li>Content 2</li>
+      <li>Content 3</li>
+      <li>Content 4</li>
+      <li>Content 5</li>
+      <li>Content 6</li>
+      <li>Content 7</li>
+      <li>Content 8</li>
+      <li>Content 9</li>
+      <li>Content 10</li>
+      <li>Content 11</li>
+      <li>Content 12</li>
+      <li>Content 13</li>
+      <li>Content 14</li>
+      <li>Content 15</li>
+    </ul>
+  </div>
+</div>
+Explanation:
+Container <div style="display: flex;">: This creates a flex container that allows you to place elements side by side.
+Static Column <div style="flex: 1; padding: 10px; border-right: 2px solid #ddd;">: This column will take up a fixed amount of space and will have a border on the right side for separation.
+Scrollable Column <div style="flex: 2; padding: 10px; overflow-y: auto; height: 400px;">: This column will be scrollable vertically if the content exceeds the specified height (400px in this example).
+You can adjust the height and flex properties to fit your needs. Most Markdown renderers that support HTML should render this correctly, including GitHub, GitLab, and some documentation platforms.
+
+
+
+
+
+
+Você disse:
+Ok, now just want a 2 column static markdown, I want some tables in the first and other tables in the second
+O ChatGPT disse:
+ChatGPT
+To create a simple two-column layout in Markdown where both columns are static, you can use tables to align your content. Markdown tables are limited, but you can use them to approximate a side-by-side layout.
+
+Here’s a Markdown example that uses tables to achieve a two-column layout:
+
+markdown
+Copiar código
+# Two Column Static Layout
+
+| Column 1                              | Column 2                              |
+|---------------------------------------|---------------------------------------|
+| **Table 1**                           | **Table 2**                           |
+| | **Header 1** | **Header 2** |           | **Header A** | **Header B** |
+| |-------------|-------------|           |-------------|-------------|
+| | Row 1 Col 1 | Row 1 Col 2 |           | Row 1 Col A | Row 1 Col B |
+| | Row 2 Col 1 | Row 2 Col 2 |           | Row 2 Col A | Row 2 Col B |
+| | Row 3 Col 1 | Row 3 Col 2 |           | Row 3 Col A | Row 3 Col B |
+| **Table 3**                           | **Table 4**                           |
+| | **Header X** | **Header Y** |           | **Header M** | **Header N** |
+| |-------------|-------------|           |-------------|-------------|
+| | Row A Col X | Row A Col Y |           | Row A Col M | Row A Col N |
+| | Row B Col X | Row B Col Y |           | Row B Col M | Row B Col N |
+| | Row C Col X | Row C Col Y |           | Row C Col M | Row C Col N |
+Explanation:
+Tables: Each cell in the main table’s columns represents one side of your layout.
+Tables in Columns: Inside each cell, you can place additional tables to represent the content of each column.
+This approach has its limitations, especially with complex layouts and responsiveness. For more advanced layout needs, you might want to use HTML as mentioned earlier or leverage other tools like Notion, Google Docs, or Markdown-compatible editors that support custom styling.
+
+
+
+
+
+
+Você disse:
+put it in a markdown table: But remove the single letters and the naming (move)
+Bullet Punch (move)
+C
+Comet Punch (move)
+D
+Dizzy Punch (move)
+Double Iron Bash (move)
+Drain Punch (move)
+Dynamic Punch (move)
+F
+Fire Punch (move)
+Focus Punch (move)
+H
+Hammer Arm (move)
+Headlong Rush (move)
+I
+Ice Hammer (move)
+Ice Punch (move)
+J
+Jet Punch (move)
+M
+Mach Punch (move)
+Mega Punch (move)
+Meteor Mash (move)
+P
+Plasma Fists (move)
+Power-Up Punch (move)
+R
+Rage Fist (move)
+S
+Shadow Punch (move)
+Sky Uppercut (move)
+Surging Strikes (move)
+T
+Thunder Punch (move)
+W
+Wicked Blow (move)
+O ChatGPT disse:
+ChatGPT
+Here's the list of punching moves in a simple Markdown table without the single letters and the word "(move)" next to the names:
+
+markdown
+Copiar código
+# Punching Moves
+
+| Punching Move        |
+|----------------------|
+| Bullet Punch         |
+| Comet Punch          |
+| Dizzy Punch          |
+| Double Iron Bash     |
+| Drain Punch          |
+| Dynamic Punch        |
+| Fire Punch           |
+| Focus Punch          |
+| Hammer Arm           |
+| Headlong Rush        |
+| Ice Hammer           |
+| Ice Punch            |
+| Jet Punch            |
+| Mach Punch           |
+| Mega Punch           |
+| Meteor Mash          |
+| Plasma Fists         |
+| Power-Up Punch       |
+| Rage Fist            |
+| Shadow Punch         |
+| Sky Uppercut         |
+| Surging Strikes      |
+| Thunder Punch        |
+| Wicked Blow          |
+This format provides a clean table of punching moves in Markdown.
+
+
+
+
+
+
+Você disse:
+Now add the type as second column, the base power as third and a column for special vs physical or status
+O ChatGPT disse:
+ChatGPT
+Here’s the updated Markdown table with the columns for the move type, base power, and whether the move is physical, special, or status:
+
+markdown
+Copiar código
+# Punching Moves
+
+| Punching Move        | Type     | Base Power | Category   |
+|----------------------|----------|------------|------------|
+| Bullet Punch         | Steel    | 40         | Physical   |
+| Comet Punch          | Normal   | 18 (per hit) | Physical  |
+| Dizzy Punch          | Normal   | 70         | Physical   |
+| Double Iron Bash     | Steel    | 60 (per hit) | Physical  |
+| Drain Punch          | Fighting | 75         | Physical   |
+| Dynamic Punch        | Fighting | 100        | Physical   |
+| Fire Punch           | Fire     | 75         | Physical   |
+| Focus Punch          | Fighting | 150        | Physical   |
+| Hammer Arm           | Fighting | 100        | Physical   |
+| Headlong Rush        | Ground   | 120        | Physical   |
+| Ice Hammer           | Ice      | 100        | Physical   |
+| Ice Punch            | Ice      | 75         | Physical   |
+| Jet Punch            | Water    | 60         | Physical   |
+| Mach Punch           | Fighting | 40         | Physical   |
+| Mega Punch           | Normal   | 80         | Physical   |
+| Meteor Mash          | Steel    | 90         | Physical   |
+| Plasma Fists         | Electric | 100        | Physical   |
+| Power-Up Punch       | Fighting | 40         | Physical   |
+| Rage Fist            | Ghost    | 50         | Physical   |
+| Shadow Punch         | Ghost    | 60         | Physical   |
+| Sky Uppercut         | Fighting | 85         | Physical   |
+| Surging Strikes      | Water    | 25 (per hit) | Physical |
+| Thunder Punch        | Electric | 75         | Physical   |
+| Wicked Blow          | Dark     | 80         | Physical   |
+This version includes the move type, base power, and the category (Physical, Special, or Status). All of these moves are Physical, but the table can be easily expanded for different categories if needed.
+
+
+
+
+
+
+Você disse:
+Now switch 3rd and 4th columns positions, add a 5th column adding 20% of base power and a 6th column adding 40% to base power
+O ChatGPT disse:
+ChatGPT
+Here's the updated Markdown table with the third and fourth columns switched, and two new columns for the base power increased by 20% and 40%:
+
+markdown
+Copiar código
+# Punching Moves
+
+| Punching Move        | Type     | Category   | Base Power | +20% Power | +40% Power |
+|----------------------|----------|------------|------------|------------|------------|
+| Bullet Punch         | Steel    | Physical   | 40         | 48         | 56         |
+| Comet Punch          | Normal   | Physical   | 18 (per hit) | 21.6 (per hit) | 25.2 (per hit) |
+| Dizzy Punch          | Normal   | Physical   | 70         | 84         | 98         |
+| Double Iron Bash     | Steel    | Physical   | 60 (per hit) | 72 (per hit) | 84 (per hit) |
+| Drain Punch          | Fighting | Physical   | 75         | 90         | 105        |
+| Dynamic Punch        | Fighting | Physical   | 100        | 120        | 140        |
+| Fire Punch           | Fire     | Physical   | 75         | 90         | 105        |
+| Focus Punch          | Fighting | Physical   | 150        | 180        | 210        |
+| Hammer Arm           | Fighting | Physical   | 100        | 120        | 140        |
+| Headlong Rush        | Ground   | Physical   | 120        | 144        | 168        |
+| Ice Hammer           | Ice      | Physical   | 100        | 120        | 140        |
+| Ice Punch            | Ice      | Physical   | 75         | 90         | 105        |
+| Jet Punch            | Water    | Physical   | 60         | 72         | 84         |
+| Mach Punch           | Fighting | Physical   | 40         | 48         | 56         |
+| Mega Punch           | Normal   | Physical   | 80         | 96         | 112        |
+| Meteor Mash          | Steel    | Physical   | 90         | 108        | 126        |
+| Plasma Fists         | Electric | Physical   | 100        | 120        | 140        |
+| Power-Up Punch       | Fighting | Physical   | 40         | 48         | 56         |
+| Rage Fist            | Ghost    | Physical   | 50         | 60         | 70         |
+| Shadow Punch         | Ghost    | Physical   | 60         | 72         | 84         |
+| Sky Uppercut         | Fighting | Physical   | 85         | 102        | 119        |
+| Surging Strikes      | Water    | Physical   | 25 (per hit) | 30 (per hit) | 35 (per hit) |
+| Thunder Punch        | Electric | Physical   | 75         | 90         | 105        |
+| Wicked Blow          | Dark     | Physical   | 80         | 96         | 112        |
+Explanation:
++20% Power column: Calculated as Base Power * 1.2
++40% Power column: Calculated as Base Power * 1.4
+This gives an overview of the increased power for each move with the specified modifiers.
+
+
+
+
+
+
+Você disse:
+now do the same for these:
+List of sound-based moves
+Move	Type	Cat.
+Growl	 Normal 	Status
+Roar	 Normal 	Status
+Sing	 Normal 	Status
+Supersonic	 Normal 	Status
+Screech	 Normal 	Status
+Snore	 Normal 	Special
+Perish Song	 Normal 	Status
+Heal Bell	 Normal 	Status
+Uproar	 Normal 	Special
+Hyper Voice	 Normal 	Special
+Metal Sound	 Steel 	Status
+Grass Whistle	 Grass 	Status
+Howl	 Normal 	Status
+Bug Buzz	 Bug 	Special
+Chatter	 Flying 	Special
+Round	 Normal 	Special
+Echoed Voice	 Normal 	Special
+Relic Song	 Normal 	Special
+Snarl	 Dark 	Special
+Noble Roar	 Normal 	Status
+Disarming Voice	 Fairy 	Special
+Parting Shot	 Dark 	Status
+Boomburst	 Normal 	Special
+Confide	 Normal 	Status
+Sparkling Aria	 Water 	Special
+Clanging Scales	 Dragon 	Special
+Clangorous Soulblaze	 Dragon 	Special
+Clangorous Soul	 Dragon 	Status
+Overdrive	 Electric 	Special
+Eerie Spell	 Psychic 	Special
+Torch Song	 Fire 	Special
+Alluring Voice	 Fairy 	Special
+Psychic Noise	 Psychic 	Special
+O ChatGPT disse:
+ChatGPT
+Here is the table with the sound-based moves including their type, category, base power, and the power increased by 20% and 40%:
+
+markdown
+Copiar código
+# Sound-Based Moves
+
+| Move                 | Type     | Category   | Base Power | +20% Power | +40% Power |
+|----------------------|----------|------------|------------|------------|------------|
+| Growl                | Normal   | Status     | N/A        | N/A        | N/A        |
+| Roar                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sing                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Supersonic           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Screech              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Snore                | Normal   | Special    | 50         | 60         | 70         |
+| Perish Song          | Normal   | Status     | N/A        | N/A        | N/A        |
+| Heal Bell            | Normal   | Status     | N/A        | N/A        | N/A        |
+| Uproar               | Normal   | Special    | 90         | 108        | 126        |
+| Hyper Voice          | Normal   | Special    | 90         | 108        | 126        |
+| Metal Sound          | Steel    | Status     | N/A        | N/A        | N/A        |
+| Grass Whistle        | Grass    | Status     | N/A        | N/A        | N/A        |
+| Howl                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Bug Buzz             | Bug      | Special    | 90         | 108        | 126        |
+| Chatter              | Flying   | Special    | 65         | 78         | 91         |
+| Round                | Normal   | Special    | 60         | 72         | 84         |
+| Echoed Voice         | Normal   | Special    | 40         | 48         | 56         |
+| Relic Song           | Normal   | Special    | 75         | 90         | 105        |
+| Snarl                | Dark     | Special    | 55         | 66         | 77         |
+| Noble Roar           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Disarming Voice      | Fairy    | Special    | 40         | 48         | 56         |
+| Parting Shot         | Dark     | Status     | N/A        | N/A        | N/A        |
+| Boomburst            | Normal   | Special    | 140        | 168        | 196        |
+| Confide              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sparkling Aria       | Water    | Special    | 90         | 108        | 126        |
+| Clanging Scales      | Dragon   | Special    | 110        | 132        | 154        |
+| Clangorous Soulblaze | Dragon   | Special    | 185        | 222        | 259        |
+| Clangorous Soul      | Dragon   | Status     | N/A        | N/A        | N/A        |
+| Overdrive            | Electric | Special    | 80         | 96         | 112        |
+| Eerie Spell          | Psychic  | Special    | 80         | 96         | 112        |
+| Torch Song           | Fire     | Special    | 80         | 96         | 112        |
+| Alluring Voice       | Fairy    | Special    | 40         | 48         | 56         |
+| Psychic Noise        | Psychic  | Special    | 80         | 96         | 112        |
+Notes:
+N/A is used for moves that don't have a base power (Status moves).
++20% Power and +40% Power are calculated based on the base power of each move where applicable.
+
+
+
+
+
+Você disse:
+Now, let the last column +50% power
+O ChatGPT disse:
+ChatGPT
+Here’s the updated table with the last column showing the base power increased by 50%:
+
+markdown
+Copiar código
+# Sound-Based Moves
+
+| Move                 | Type     | Category   | Base Power | +20% Power | +40% Power | +50% Power |
+|----------------------|----------|------------|------------|------------|------------|------------|
+| Growl                | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Roar                 | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Sing                 | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Supersonic           | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Screech              | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Snore                | Normal   | Special    | 50         | 60         | 70         | 75         |
+| Perish Song          | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Heal Bell            | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Uproar               | Normal   | Special    | 90         | 108        | 126        | 135        |
+| Hyper Voice          | Normal   | Special    | 90         | 108        | 126        | 135        |
+| Metal Sound          | Steel    | Status     | N/A        | N/A        | N/A        | N/A        |
+| Grass Whistle        | Grass    | Status     | N/A        | N/A        | N/A        | N/A        |
+| Howl                 | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Bug Buzz             | Bug      | Special    | 90         | 108        | 126        | 135        |
+| Chatter              | Flying   | Special    | 65         | 78         | 91         | 97.5       |
+| Round                | Normal   | Special    | 60         | 72         | 84         | 90         |
+| Echoed Voice         | Normal   | Special    | 40         | 48         | 56         | 60         |
+| Relic Song           | Normal   | Special    | 75         | 90         | 105        | 112.5      |
+| Snarl                | Dark     | Special    | 55         | 66         | 77         | 82.5       |
+| Noble Roar           | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Disarming Voice      | Fairy    | Special    | 40         | 48         | 56         | 60         |
+| Parting Shot         | Dark     | Status     | N/A        | N/A        | N/A        | N/A        |
+| Boomburst            | Normal   | Special    | 140        | 168        | 196        | 210        |
+| Confide              | Normal   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Sparkling Aria       | Water    | Special    | 90         | 108        | 126        | 135        |
+| Clanging Scales      | Dragon   | Special    | 110        | 132        | 154        | 165        |
+| Clangorous Soulblaze | Dragon   | Special    | 185        | 222        | 259        | 277.5      |
+| Clangorous Soul      | Dragon   | Status     | N/A        | N/A        | N/A        | N/A        |
+| Overdrive            | Electric | Special    | 80         | 96         | 112        | 120        |
+| Eerie Spell          | Psychic  | Special    | 80         | 96         | 112        | 120        |
+| Torch Song           | Fire     | Special    | 80         | 96         | 112        | 120        |
+| Alluring Voice       | Fairy    | Special    | 40         | 48         | 56         | 60         |
+| Psychic Noise        | Psychic  | Special    | 80         | 96         | 112        | 120        |
+Explanation:
+The +50% Power column is calculated as Base Power * 1.5.
+
+
+
+
+
+Você disse:
+remove the 40% column
+O ChatGPT disse:
+ChatGPT
+Here’s the updated table with the +40% Power column removed:
+
+markdown
+Copiar código
+# Sound-Based Moves
+
+| Move                 | Type     | Category   | Base Power | +20% Power | +50% Power |
+|----------------------|----------|------------|------------|------------|------------|
+| Growl                | Normal   | Status     | N/A        | N/A        | N/A        |
+| Roar                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sing                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Supersonic           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Screech              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Snore                | Normal   | Special    | 50         | 60         | 75         |
+| Perish Song          | Normal   | Status     | N/A        | N/A        | N/A        |
+| Heal Bell            | Normal   | Status     | N/A        | N/A        | N/A        |
+| Uproar               | Normal   | Special    | 90         | 108        | 135        |
+| Hyper Voice          | Normal   | Special    | 90         | 108        | 135        |
+| Metal Sound          | Steel    | Status     | N/A        | N/A        | N/A        |
+| Grass Whistle        | Grass    | Status     | N/A        | N/A        | N/A        |
+| Howl                 | Normal   | Status     | N/A        | N/A        | N/A        |
+| Bug Buzz             | Bug      | Special    | 90         | 108        | 135        |
+| Chatter              | Flying   | Special    | 65         | 78         | 97.5       |
+| Round                | Normal   | Special    | 60         | 72         | 90         |
+| Echoed Voice         | Normal   | Special    | 40         | 48         | 60         |
+| Relic Song           | Normal   | Special    | 75         | 90         | 112.5      |
+| Snarl                | Dark     | Special    | 55         | 66         | 82.5       |
+| Noble Roar           | Normal   | Status     | N/A        | N/A        | N/A        |
+| Disarming Voice      | Fairy    | Special    | 40         | 48         | 60         |
+| Parting Shot         | Dark     | Status     | N/A        | N/A        | N/A        |
+| Boomburst            | Normal   | Special    | 140        | 168        | 210        |
+| Confide              | Normal   | Status     | N/A        | N/A        | N/A        |
+| Sparkling Aria       | Water    | Special    | 90         | 108        | 135        |
+| Clanging Scales      | Dragon   | Special    | 110        | 132        | 165        |
+| Clangorous Soulblaze | Dragon   | Special    | 185        | 222        | 277.5      |
+| Clangorous Soul      | Dragon   | Status     | N/A        | N/A        | N/A        |
+| Overdrive            | Electric | Special    | 80         | 96         | 120        |
+| Eerie Spell          | Psychic  | Special    | 80         | 96         | 120        |
+| Torch Song           | Fire     | Special    | 80         | 96         | 120        |
+| Alluring Voice       | Fairy    | Special    | 40         | 48         | 60         |
+| Psychic Noise        | Psychic  | Special    | 80         | 96         | 120        |
+Explanation:
+This version only includes the base power, +20% Power, and +50% Power columns.
+
+
+
+
+
+Você disse:
+now do for these moves (remember to ignore single letters and (move)):
+Bite (move)
+C
+Crunch (move)
+F
+Fire Fang (move)
+Fishious Rend (move)
+H
+Hyper Fang (move)
+I
+Ice Fang (move)
+J
+Jaw Lock (move)
+P
+Poison Fang (move)
+Psychic Fangs (move)
+T
+Thunder Fang (move)
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the bite-based moves with columns for base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Bite-Based Moves
+
+| Move            | Type     | Category | Base Power | +20% Power | +50% Power |
+|-----------------|----------|----------|------------|------------|------------|
+| Bite            | Dark     | Physical | 60         | 72         | 90         |
+| Crunch          | Dark     | Physical | 80         | 96         | 120        |
+| Fire Fang       | Fire     | Physical | 65         | 78         | 97.5       |
+| Fishious Rend   | Water    | Physical | 85         | 102        | 127.5      |
+| Hyper Fang      | Normal   | Physical | 80         | 96         | 120        |
+| Ice Fang        | Ice      | Physical | 65         | 78         | 97.5       |
+| Jaw Lock        | Dark     | Physical | 80         | 96         | 120        |
+| Poison Fang     | Poison   | Physical | 50         | 60         | 75         |
+| Psychic Fangs   | Psychic  | Physical | 85         | 102        | 127.5      |
+| Thunder Fang    | Electric | Physical | 65         | 78         | 97.5       |
+Explanation:
+The +20% Power and +50% Power columns are calculated from the base power of each move.
+
+
+
+
+
+Você disse:
+Now for these moves:
+Aerial Ace (move)
+Air Cutter (move)
+Air Slash (move)
+Aqua Cutter (move)
+B
+Behemoth Blade (move)
+Bitter Blade (move)
+C
+Ceaseless Edge (move)
+Cross Poison (move)
+Cut (move)
+F
+Fury Cutter (move)
+K
+Kowtow Cleave (move)
+L
+Leaf Blade (move)
+M
+Mighty Cleave (move)
+N
+Night Slash (move)
+P
+Population Bomb (move)
+Psyblade (move)
+Psycho Cut (move)
+R
+Razor Leaf (move)
+Razor Shell (move)
+S
+Sacred Sword (move)
+Secret Sword (move)
+Slash (move)
+Solar Blade (move)
+Stone Axe (move)
+T
+Tachyon Cutter (move)
+X
+X-Scissor (move)
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the slicing and blade-based moves with columns for base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Slicing and Blade-Based Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Aerial Ace       | Flying    | Physical | 60         | 72         | 90         |
+| Air Cutter       | Flying    | Special  | 60         | 72         | 90         |
+| Air Slash        | Flying    | Special  | 75         | 90         | 112.5      |
+| Aqua Cutter      | Water     | Physical | 70         | 84         | 105        |
+| Behemoth Blade   | Steel     | Physical | 100        | 120        | 150        |
+| Bitter Blade     | Fire      | Physical | 90         | 108        | 135        |
+| Ceaseless Edge   | Dark      | Physical | 65         | 78         | 97.5       |
+| Cross Poison     | Poison    | Physical | 70         | 84         | 105        |
+| Cut              | Normal    | Physical | 50         | 60         | 75         |
+| Fury Cutter      | Bug       | Physical | 40         | 48         | 60         |
+| Kowtow Cleave    | Dark      | Physical | 85         | 102        | 127.5      |
+| Leaf Blade       | Grass     | Physical | 90         | 108        | 135        |
+| Mighty Cleave    | Fighting  | Physical | 85         | 102        | 127.5      |
+| Night Slash      | Dark      | Physical | 70         | 84         | 105        |
+| Population Bomb  | Normal    | Physical | 20         | 24         | 30         |
+| Psyblade         | Psychic   | Physical | 80         | 96         | 120        |
+| Psycho Cut       | Psychic   | Physical | 70         | 84         | 105        |
+| Razor Leaf       | Grass     | Physical | 55         | 66         | 82.5       |
+| Razor Shell      | Water     | Physical | 75         | 90         | 112.5      |
+| Sacred Sword     | Fighting  | Physical | 90         | 108        | 135        |
+| Secret Sword     | Fighting  | Special  | 85         | 102        | 127.5      |
+| Slash            | Normal    | Physical | 70         | 84         | 105        |
+| Solar Blade      | Grass     | Physical | 125        | 150        | 187.5      |
+| Stone Axe        | Rock      | Physical | 65         | 78         | 97.5       |
+| Tachyon Cutter   | Steel     | Physical | 60         | 72         | 90         |
+| X-Scissor        | Bug       | Physical | 80         | 96         | 120        |
+Explanation:
+The +20% Power and +50% Power columns are calculated based on the base power of each move.
+
+
+
+
+
+Você disse:
+can you do that for every category of move? 1 table for each category.
+explding moves, aura moves, ball and bomb moves and any other category you identify.
+O ChatGPT disse:
+ChatGPT
+Memória atualizada
+I will categorize the moves into several tables, based on different move types like Exploding Moves, Aura Moves, Ball and Bomb Moves, and any other relevant categories. I'll begin by identifying and grouping moves into these categories.
+
+Exploding Moves
+markdown
+Copiar código
+# Exploding Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Explosion        | Normal    | Physical | 250        | 300        | 375        |
+| Self-Destruct    | Normal    | Physical | 200        | 240        | 300        |
+| Misty Explosion  | Fairy     | Special  | 100        | 120        | 150        |
+| Mind Blown       | Fire      | Special  | 150        | 180        | 225        |
+| Shadow Boom      | Ghost     | Special  | 100        | 120        | 150        |
+Aura Moves
+markdown
+Copiar código
+# Aura Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Aura Sphere      | Fighting  | Special  | 80         | 96         | 120        |
+| Dragon Pulse     | Dragon    | Special  | 85         | 102        | 127.5      |
+| Dark Pulse       | Dark      | Special  | 80         | 96         | 120        |
+| Shadow Aura      | Ghost     | Special  | 90         | 108        | 135        |
+| Fairy Aura       | Fairy     | Special  | 90         | 108        | 135        |
+Ball and Bomb Moves
+markdown
+Copiar código
+# Ball and Bomb Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Shadow Ball      | Ghost     | Special  | 80         | 96         | 120        |
+| Energy Ball      | Grass     | Special  | 90         | 108        | 135        |
+| Sludge Bomb      | Poison    | Special  | 90         | 108        | 135        |
+| Ice Ball         | Ice       | Physical | 30         | 36         | 45         |
+| Aura Bomb        | Fighting  | Special  | 80         | 96         | 120        |
+| Seed Bomb        | Grass     | Physical | 80         | 96         | 120        |
+| Mud Bomb         | Ground    | Special  | 65         | 78         | 97.5       |
+| Electro Ball     | Electric  | Special  | Varies     | Varies     | Varies     |
+Punching Moves
+markdown
+Copiar código
+# Punching Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Fire Punch       | Fire      | Physical | 75         | 90         | 112.5      |
+| Ice Punch        | Ice       | Physical | 75         | 90         | 112.5      |
+| Thunder Punch    | Electric  | Physical | 75         | 90         | 112.5      |
+| Dynamic Punch    | Fighting  | Physical | 100        | 120        | 150        |
+| Mach Punch       | Fighting  | Physical | 40         | 48         | 60         |
+| Focus Punch      | Fighting  | Physical | 150        | 180        | 225        |
+| Mega Punch       | Normal    | Physical | 80         | 96         | 120        |
+Kicking Moves
+markdown
+Copiar código
+# Kicking Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Blaze Kick       | Fire      | Physical | 85         | 102        | 127.5      |
+| High Jump Kick   | Fighting  | Physical | 130        | 156        | 195        |
+| Low Kick         | Fighting  | Physical | Varies     | Varies     | Varies     |
+| Mega Kick        | Normal    | Physical | 120        | 144        | 180        |
+| Double Kick      | Fighting  | Physical | 30         | 36         | 45         |
+| Trop Kick        | Grass     | Physical | 70         | 84         | 105        |
+| Stomp            | Normal    | Physical | 65         | 78         | 97.5       |
+| Aqua Step        | Water     | Physical | 80         | 96         | 120        |
+I’ll continue adding more categories and moves in a similar fashion. If you have additional categories or specific preferences, feel free to let me know!
+
+
+2/2
+
+Você disse:
+do to these moves:
+Pages in category "Aura and pulse moves"
+The following 7 pages are in this category, out of 7 total.
+
+A
+Aura Sphere (move)
+D
+Dark Pulse (move)
+Dragon Pulse (move)
+H
+Heal Pulse (move)
+O
+Origin Pulse (move)
+T
+Terrain Pulse (move)
+W
+Water Pulse (move)
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the Aura and Pulse Moves with columns for base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Aura and Pulse Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Aura Sphere      | Fighting  | Special  | 80         | 96         | 120        |
+| Dark Pulse       | Dark      | Special  | 80         | 96         | 120        |
+| Dragon Pulse     | Dragon    | Special  | 85         | 102        | 127.5      |
+| Heal Pulse       | Psychic   | Status   | N/A        | N/A        | N/A        |
+| Origin Pulse     | Water     | Special  | 110        | 132        | 165        |
+| Terrain Pulse    | Electric  | Special  | 50         | 60         | 75         |
+| Water Pulse      | Water     | Special  | 60         | 72         | 90         |
+Explanation:
+Heal Pulse is a status move and thus does not have a base power.
+The +20% Power and +50% Power columns are calculated based on the base power of each move.
+
+
+
+
+
+Você disse:
+do to these:
+Pages in category "Ball and bomb moves"
+The following 26 pages are in this category, out of 26 total.
+
+A
+Acid Spray (move)
+Aura Sphere (move)
+B
+Barrage (move)
+Beak Blast (move)
+Bullet Seed (move)
+E
+Egg Bomb (move)
+Electro Ball (move)
+Energy Ball (move)
+F
+Focus Blast (move)
+G
+Gyro Ball (move)
+I
+Ice Ball (move)
+M
+Magnet Bomb (move)
+Mist Ball (move)
+Mud Bomb (move)
+O
+Octazooka (move)
+P
+Pollen Puff (move)
+Pyro Ball (move)
+R
+Rock Blast (move)
+Rock Wrecker (move)
+S
+Searing Shot (move)
+Seed Bomb (move)
+Shadow Ball (move)
+Sludge Bomb (move)
+Syrup Bomb (move)
+W
+Weather Ball (move)
+Z
+Zap Cannon (move)
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the Ball and Bomb Moves with columns for base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Ball and Bomb Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power |
+|------------------|-----------|----------|------------|------------|------------|
+| Acid Spray       | Poison    | Special  | 40         | 48         | 60         |
+| Aura Sphere      | Fighting  | Special  | 80         | 96         | 120        |
+| Barrage          | Bug       | Physical | 15         | 18         | 22.5       |
+| Beak Blast       | Flying    | Physical | 100        | 120        | 150        |
+| Bullet Seed      | Grass     | Physical | 25         | 30         | 37.5       |
+| Egg Bomb          | Bomb      | Special  | 100        | 120        | 150        |
+| Electro Ball     | Electric  | Special  | Varies     | Varies     | Varies     |
+| Energy Ball      | Grass     | Special  | 90         | 108        | 135        |
+| Focus Blast      | Fighting  | Special  | 120        | 144        | 180        |
+| Gyro Ball        | Steel     | Physical | 50         | 60         | 75         |
+| Ice Ball         | Ice       | Physical | 30         | 36         | 45         |
+| Magnet Bomb      | Steel     | Physical | 60         | 72         | 90         |
+| Mist Ball        | Psychic   | Special  | 70         | 84         | 105        |
+| Mud Bomb         | Ground    | Special  | 65         | 78         | 97.5       |
+| Octazooka        | Water     | Special  | 65         | 78         | 97.5       |
+| Pollen Puff      | Bug       | Special  | 90         | 108        | 135        |
+| Pyro Ball        | Fire      | Physical | 120        | 144        | 180        |
+| Rock Blast       | Rock      | Physical | 25         | 30         | 37.5       |
+| Rock Wrecker     | Rock      | Physical | 150        | 180        | 225        |
+| Searing Shot     | Fire      | Special  | 100        | 120        | 150        |
+| Seed Bomb        | Grass     | Physical | 80         | 96         | 120        |
+| Shadow Ball      | Ghost     | Special  | 80         | 96         | 120        |
+| Sludge Bomb      | Poison    | Special  | 90         | 108        | 135        |
+| Syrup Bomb       | Poison    | Special  | 80         | 96         | 120        |
+| Weather Ball     | Weather   | Special  | Varies     | Varies     | Varies     |
+| Zap Cannon       | Electric  | Special  | 120        | 144        | 180        |
+Explanation:
+Electro Ball and Weather Ball have varying base power based on certain conditions, so their +20% and +50% power calculations would also vary.
+
+
+
+
+
+Você disse:
+when the base power says  varies, can you replace with the minimum and the maximum values? 
+O ChatGPT disse:
+ChatGPT
+Certainly! Here’s the updated markdown table for the Ball and Bomb Moves with the base power ranges included for moves where the base power varies:
+
+markdown
+Copiar código
+# Ball and Bomb Moves
+
+| Move             | Type      | Category | Base Power        | +20% Power          | +50% Power          |
+|------------------|-----------|----------|-------------------|---------------------|---------------------|
+| Acid Spray       | Poison    | Special  | 40                | 48                  | 60                  |
+| Aura Sphere      | Fighting  | Special  | 80                | 96                  | 120                 |
+| Barrage          | Bug       | Physical | 15                | 18                  | 22.5                |
+| Beak Blast       | Flying    | Physical | 100               | 120                 | 150                 |
+| Bullet Seed      | Grass     | Physical | 25                | 30                  | 37.5                |
+| Egg Bomb          | Bomb      | Special  | 100               | 120                 | 150                 |
+| Electro Ball     | Electric  | Special  | 40–150            | 48–180              | 60–225              |
+| Energy Ball      | Grass     | Special  | 90                | 108                 | 135                 |
+| Focus Blast      | Fighting  | Special  | 120               | 144                 | 180                 |
+| Gyro Ball        | Steel     | Physical | 50                | 60                  | 75                  |
+| Ice Ball         | Ice       | Physical | 30                | 36                  | 45                  |
+| Magnet Bomb      | Steel     | Physical | 60                | 72                  | 90                  |
+| Mist Ball        | Psychic   | Special  | 70                | 84                  | 105                 |
+| Mud Bomb         | Ground    | Special  | 65                | 78                  | 97.5                |
+| Octazooka        | Water     | Special  | 65                | 78                  | 97.5                |
+| Pollen Puff      | Bug       | Special  | 90                | 108                 | 135                 |
+| Pyro Ball        | Fire      | Physical | 120               | 144                 | 180                 |
+| Rock Blast       | Rock      | Physical | 25                | 30                  | 37.5                |
+| Rock Wrecker     | Rock      | Physical | 150               | 180                 | 225                 |
+| Searing Shot     | Fire      | Special  | 100               | 120                 | 150                 |
+| Seed Bomb        | Grass     | Physical | 80                | 96                  | 120                 |
+| Shadow Ball      | Ghost     | Special  | 80                | 96                  | 120                 |
+| Sludge Bomb      | Poison    | Special  | 90                | 108                 | 135                 |
+| Syrup Bomb       | Poison    | Special  | 80                | 96                  | 120                 |
+| Weather Ball     | Weather   | Special  | 50–100            | 60–120              | 75–150              |
+| Zap Cannon       | Electric  | Special  | 120               | 144                 | 180                 |
+Explanation:
+Electro Ball and Weather Ball now include their base power ranges for minimum and maximum values.
+
+
+
+
+
+Você disse:
+now for these:
+Pages in category "Wind moves"
+The following 17 pages are in this category, out of 17 total.
+
+A
+Aeroblast (move)
+Air Cutter (move)
+B
+Bleakwind Storm (move)
+Blizzard (move)
+F
+Fairy Wind (move)
+G
+Gust (move)
+H
+Heat Wave (move)
+Hurricane (move)
+I
+Icy Wind (move)
+P
+Petal Blizzard (move)
+S
+Sandsear Storm (move)
+Sandstorm (move)
+Springtide Storm (move)
+T
+Tailwind (move)
+Twister (move)
+W
+Whirlwind (move)
+Wildbolt Storm (move)
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the Wind Moves with columns for base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Wind Moves
+
+| Move                | Type      | Category | Base Power        | +20% Power          | +50% Power          |
+|---------------------|-----------|----------|-------------------|---------------------|---------------------|
+| Aeroblast           | Flying    | Special  | 100               | 120                 | 150                 |
+| Air Cutter          | Flying    | Special  | 55                | 66                  | 82.5                |
+| Bleakwind Storm     | Flying    | Special  | 120               | 144                 | 180                 |
+| Blizzard            | Ice       | Special  | 110               | 132                 | 165                 |
+| Fairy Wind          | Fairy     | Special  | 40                | 48                  | 60                  |
+| Gust                | Flying    | Special  | 40                | 48                  | 60                  |
+| Heat Wave           | Fire      | Special  | 100               | 120                 | 150                 |
+| Hurricane           | Flying    | Special  | 110               | 132                 | 165                 |
+| Icy Wind            | Ice       | Special  | 55                | 66                  | 82.5                |
+| Petal Blizzard      | Grass     | Special  | 90                | 108                 | 135                 |
+| Sandsear Storm      | Fire      | Special  | 120               | 144                 | 180                 |
+| Sandstorm           | Rock      | Status   | N/A               | N/A                 | N/A                 |
+| Springtide Storm    | Fairy     | Special  | 120               | 144                 | 180                 |
+| Tailwind            | Flying    | Status   | N/A               | N/A                 | N/A                 |
+| Twister             | Dragon    | Special  | 40                | 48                  | 60                  |
+| Whirlwind           | Flying    | Status   | N/A               | N/A                 | N/A                 |
+| Wildbolt Storm      | Electric  | Special  | 120               | 144                 | 180                 |
+Explanation:
+Sandstorm, Tailwind, and Whirlwind are status moves and thus do not have a base power, so no +20% or +50% power calculations are included for them.
+
+
+
+
+
+Você disse:
+do for these:
+Name	Type	Category	Power	Accuracy	PP	Strikes
+Bonemerang	Ground	Physical	50	90%	10	2
+Double Hit	Normal	Physical	35	90%	10	2
+Double Iron Bash	Steel	Physical	60	100%	5	2
+Double Kick	Fighting	Physical	30	100%	30	2
+Dragon Darts	Dragon	Physical	50	100%	10	2
+Dual Chop	Dragon	Physical	40	90%	15	2
+Dual Wingbeat	Flying	Physical	40	90%	10	2
+Gear Grind	Steel	Physical	50	85%	15	2
+Surging Strikes	Water	Physical	25	100%	5	3
+Tachyon Cutter	Steel	Special	50	∞%	10	2
+Triple Dive	Water	Physical	30	95%	10	3
+Twin Beam	Psychic	Special	40	100%	10	2
+Twineedle	Bug	Physical	25	100%	20	2
+Water Shuriken*	Water	Special	20	100%	20	3
+
+Arm Thrust	Fighting	Physical	15	100%	20	45	46.5
+Barrage	Normal	Physical	15	85%	20	45	46.5
+Bone Rush	Ground	Physical	25	90%	10	75	77.5
+Bullet Seed	Grass	Physical	25	100%	30	30	77.5
+Comet Punch	Normal	Physical	18	85%	15	54	55.8
+Double Slap	Normal	Physical	15	85%	10	45	46.5
+Fury Attack	Normal	Physical	15	85%	20	45	46.5
+Fury Swipes	Normal	Physical	18	80%	15	54	55.8
+Icicle Spear	Ice	Physical	25	100%	30	30	77.5
+Pin Missile	Bug	Physical	25	95%	20	42	77.5
+Rock Blast	Rock	Physical	25	90%	10	75	77.5
+Scale Shot	Dragon	Physical	25	90%	20	N/A	77.5
+Spike Cannon	Normal	Physical	20	100%	15	60	62
+Tail Slap	Normal	Physical	25	85%	10	N/A	77.5
+Water Shuriken*	Water	Special	15	100%	20	N/A	46.5
+
+Triple Axel	Ice	Physical	20	90%	10	3	94.14
+Triple Kick	Fighting	Physical	10	90%	10	3	47.07
+Population Bomb	Normal	Physical	20	90%	10	10	117.24
+
+Beat Up
+O ChatGPT disse:
+ChatGPT
+Here is the markdown table for the moves, including columns for base power, +20% power, and +50% power. Note that the moves with multiple strikes are calculated for their total base power:
+
+markdown
+Copiar código
+# Move Power Calculations
+
+| Move               | Type      | Category | Base Power | +20% Power | +50% Power |
+|--------------------|-----------|----------|------------|------------|------------|
+| Bonemerang         | Ground    | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Double Hit         | Normal    | Physical | 35 (per hit, 2 hits) | 42 (per hit) | 52.5 (per hit) |
+| Double Iron Bash   | Steel     | Physical | 60 (per hit, 2 hits) | 72 (per hit) | 90 (per hit) |
+| Double Kick        | Fighting  | Physical | 30 (per hit, 2 hits) | 36 (per hit) | 45 (per hit) |
+| Dragon Darts       | Dragon    | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Dual Chop          | Dragon    | Physical | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Dual Wingbeat      | Flying    | Physical | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Gear Grind         | Steel     | Physical | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Surging Strikes    | Water     | Physical | 25 (per hit, 3 hits) | 30 (per hit) | 37.5 (per hit) |
+| Tachyon Cutter     | Steel     | Special  | 50 (per hit, 2 hits) | 60 (per hit) | 75 (per hit) |
+| Triple Dive        | Water     | Physical | 30 (per hit, 3 hits) | 36 (per hit) | 45 (per hit) |
+| Twin Beam          | Psychic   | Special  | 40 (per hit, 2 hits) | 48 (per hit) | 60 (per hit) |
+| Twineedle          | Bug       | Physical | 25 (per hit, 2 hits) | 30 (per hit) | 37.5 (per hit) |
+| Water Shuriken     | Water     | Special  | 20 (per hit, 3 hits) | 24 (per hit) | 30 (per hit) |
+| Arm Thrust         | Fighting  | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Barrage            | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Bone Rush          | Ground    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Bullet Seed        | Grass     | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Comet Punch        | Normal    | Physical | 18 (per hit, 5 hits) | 21.6 (per hit) | 27 (per hit) |
+| Double Slap        | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Fury Attack        | Normal    | Physical | 15 (per hit, 5 hits) | 18 (per hit) | 22.5 (per hit) |
+| Fury Swipes        | Normal    | Physical | 18 (per hit, 5 hits) | 21.6 (per hit) | 27 (per hit) |
+| Icicle Spear       | Ice       | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Pin Missile        | Bug       | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Rock Blast         | Rock      | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Scale Shot         | Dragon    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Spike Cannon       | Normal    | Physical | 20 (per hit, 5 hits) | 24 (per hit) | 30 (per hit) |
+| Tail Slap          | Normal    | Physical | 25 (per hit, 5 hits) | 30 (per hit) | 37.5 (per hit) |
+| Water Shuriken*    | Water     | Special  | 15 (per hit, 3 hits) | 18 (per hit) | 22.5 (per hit) |
+| Triple Axel        | Ice       | Physical | 20 (per hit, 3 hits) | 24 (per hit) | 30 (per hit) |
+| Triple Kick        | Fighting  | Physical | 10 (per hit, 3 hits) | 12 (per hit) | 15 (per hit) |
+| Population Bomb    | Normal    | Physical | 20 (per hit, 10 hits) | 24 (per hit) | 30 (per hit) |
+| Beat Up            | Dark      | Physical | 10 (per hit, varies) | 12 (per hit) | 15 (per hit) |
+Explanation:
+For multi-strike moves, the base power, +20%, and +50% values are calculated per hit and then multiplied by the number of strikes.
+Water Shuriken and Triple Axel are calculated with 3 hits, and Beat Up varies in the number of hits, so +20% and +50% values will depend on the number of hits in battle.
+
+
+
+
+
+Você disse:
+do for these:
+Pages in category "HP-draining moves"
+The following 14 pages are in this category, out of 14 total.
+
+A
+Absorb (move)
+B
+Bitter Blade (move)
+Bouncy Bubble (move)
+D
+Drain Punch (move)
+Draining Kiss (move)
+Dream Eater (move)
+G
+Giga Drain (move)
+H
+Horn Leech (move)
+L
+Leech Life (move)
+Leech Seed (move)
+M
+Matcha Gotcha (move)
+Mega Drain (move)
+O
+Oblivion Wing (move)
+P
+Parabolic Charge (move)
+O ChatGPT disse:
+ChatGPT
+Here is the markdown table for HP-draining moves, with columns for base power, +20% power, and +50% power. For moves with varying effects, the power is represented as a minimum and maximum range where applicable:
+
+markdown
+Copiar código
+# HP-Draining Moves
+
+| Move              | Type      | Category | Base Power         | +20% Power          | +50% Power          |
+|-------------------|-----------|----------|--------------------|---------------------|---------------------|
+| Absorb            | Grass     | Special  | 20                 | 24                  | 30                  |
+| Bitter Blade      | Fire      | Physical | 50                 | 60                  | 75                  |
+| Bouncy Bubble     | Water     | Special  | 50                 | 60                  | 75                  |
+| Drain Punch       | Fighting  | Physical | 60                 | 72                  | 90                  |
+| Draining Kiss      | Fairy     | Special  | 50                 | 60                  | 75                  |
+| Dream Eater       | Ghost     | Special  | 100                | 120                 | 150                 |
+| Giga Drain        | Grass     | Special  | 75                 | 90                  | 112.5               |
+| Horn Leech        | Grass     | Physical | 75                 | 90                  | 112.5               |
+| Leech Life        | Bug       | Physical | 20                 | 24                  | 30                  |
+| Leech Seed        | Grass     | Status   | N/A                | N/A                 | N/A                 |
+| Matcha Gotcha     | Grass     | Special  | 50                 | 60                  | 75                  |
+| Mega Drain        | Grass     | Special  | 40                 | 48                  | 60                  |
+| Oblivion Wing     | Flying    | Special  | 80                 | 96                  | 120                 |
+| Parabolic Charge  | Electric  | Special  | 50                 | 60                  | 75                  |
+Explanation:
+Leech Seed is a status move and does not have a base power, so it is not included in the +20% and +50% calculations.
+
+
+
+
+
+Você disse:
+do to these:
+Moves with recoil damage
+Name	Type	Category	Power	Accuracy	Recoil	Notes
+Brave Bird	Flying	Physical	120	100%	1/3 of damage dealt	
+Chloroblast	Grass	Special	120 (Gen. VIII)
+150 (Gen. IX+)	95%	1/2 of user's maximum HP	
+Double-Edge	Normal	Physical	100 (Gen. I)
+120 (Gen. II+)	100%	1/3 of damage dealt (Gen. III+)
+1/4 of damage dealt (Gen. I-II)	
+Flare Blitz	Fire	Physical	120	100%	1/3 of damage dealt	10% chance of burning the target.
+Head Charge	Normal	Physical	120	100%	1/4 of damage dealt	
+Head Smash	Rock	Physical	150	80%	1/2 of damage dealt	
+Light of Ruin	Fairy	Special	140	90%	1/2 of damage dealt	This move is exclusive to a Pokémon that has never been legitimately available.
+Self-DestructLA	Normal	Physical	150	100%	4/5 of user's maximum HP	
+Shadow End	Shadow	Physical	120	60%	1/2 of user's current HP	
+Shadow RushColo	Shadow	Physical	90	100%	1/16 of user's maximum HP	95% chance to land a critical hit when the Pokémon is in Hyper Mode
+Struggle	Normal	Physical	50	100% (Gen. I-III)
+—% (Gen. IV+)	1/4 of user's maximum HP (Gen. IV+)
+1/4 of damage dealt (Gen. II-III)
+1/2 of damage dealt (Gen. I)	Hits Ghost-type Pokémon in Pokémon Stadium and from Generation II onward
+Submission	Fighting	Physical	80	80%	1/4 of damage dealt	
+Take Down	Normal	Physical	90	85%	1/4 of damage dealt	
+Volt Tackle	Electric	Physical	120	100%	1/3 of damage dealt	10% chance of paralyzing the target
+Wave Crash	Water	Physical	75 (Gen. VIII)
+120 (Gen. IX+)	100%	1/3 of damage dealt	Also raises the user's action speed in Legends: Arceus
+Wild Charge	Electric	Physical	90	100%	1/4 of damage dealt	
+Wood Hammer	Grass	Physical	120	100%	1/3 of damage dealt	
+O ChatGPT disse:
+ChatGPT
+Here's the markdown table for moves with recoil damage, including columns for base power, +20% power, and +50% power. Recoil percentages are based on the damage dealt.
+
+markdown
+Copiar código
+# Moves with Recoil Damage
+
+| Move            | Type      | Category | Base Power | +20% Power | +50% Power | Recoil Damage     | Notes                                                        |
+|-----------------|-----------|----------|------------|------------|------------|-------------------|--------------------------------------------------------------|
+| Brave Bird      | Flying    | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+| Chloroblast     | Grass     | Special  | 120 (Gen. VIII) / 150 (Gen. IX+) | 144 (Gen. VIII) / 180 (Gen. IX+) | 180 (Gen. VIII) / 225 (Gen. IX+) | 1/2 of user's maximum HP |                                                              |
+| Double-Edge     | Normal    | Physical | 100 (Gen. I) / 120 (Gen. II+) | 120 (Gen. I) / 144 (Gen. II+) | 150 (Gen. I) / 180 (Gen. II+) | 1/3 of damage dealt (Gen. III+) / 1/4 of damage dealt (Gen. I-II) |                                                              |
+| Flare Blitz     | Fire      | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of burning the target.                            |
+| Head Charge     | Normal    | Physical | 120        | 144        | 180        | 1/4 of damage dealt |                                                              |
+| Head Smash      | Rock      | Physical | 150        | 180        | 225        | 1/2 of damage dealt |                                                              |
+| Light of Ruin   | Fairy     | Special  | 140        | 168        | 210        | 1/2 of damage dealt | This move is exclusive to a Pokémon that has never been legitimately available. |
+| Self-Destruct   | Normal    | Physical | 150        | 180        | 225        | 4/5 of user's maximum HP |                                                              |
+| Shadow End      | Shadow    | Physical | 120        | 144        | 180        | 1/2 of user's current HP |                                                              |
+| Shadow Rush     | Shadow    | Physical | 90         | 108        | 135        | 1/16 of user's maximum HP | 95% chance to land a critical hit when the Pokémon is in Hyper Mode |
+| Struggle        | Normal    | Physical | 50         | 60         | 75         | 1/4 of user's maximum HP (Gen. IV+) / 1/4 of damage dealt (Gen. II-III) / 1/2 of damage dealt (Gen. I) | Hits Ghost-type Pokémon in Pokémon Stadium and from Generation II onward |
+| Submission      | Fighting  | Physical | 80         | 96         | 120        | 1/4 of damage dealt |                                                              |
+| Take Down       | Normal    | Physical | 90         | 108        | 135        | 1/4 of damage dealt |                                                              |
+| Volt Tackle     | Electric  | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of paralyzing the target                           |
+| Wave Crash      | Water     | Physical | 75 (Gen. VIII) / 120 (Gen. IX+) | 90 (Gen. VIII) / 144 (Gen. IX+) | 112.5 (Gen. VIII) / 180 (Gen. IX+) | 1/3 of damage dealt | Also raises the user's action speed in Legends: Arceus |
+| Wild Charge     | Electric  | Physical | 90         | 108        | 135        | 1/4 of damage dealt |                                                              |
+| Wood Hammer     | Grass     | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+Explanation:
+Chloroblast and Wave Crash have different base powers depending on the generation, so calculations are provided for both ranges.
+Recoil damage is calculated as a percentage of damage dealt or maximum HP, so the total power increases are calculated accordingly.
+
+
+
+
+
+Você disse:
+include only latest gen
+O ChatGPT disse:
+ChatGPT
+Memória atualizada
+Here is the updated markdown table for moves with recoil damage, including only the latest generation (Gen IX+ for relevant moves):
+
+markdown
+Copiar código
+# Moves with Recoil Damage
+
+| Move            | Type      | Category | Base Power | +20% Power | +50% Power | Recoil Damage     | Notes                                                        |
+|-----------------|-----------|----------|------------|------------|------------|-------------------|--------------------------------------------------------------|
+| Brave Bird      | Flying    | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+| Chloroblast     | Grass     | Special  | 150        | 180        | 225        | 1/2 of user's maximum HP |                                                              |
+| Double-Edge     | Normal    | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+| Flare Blitz     | Fire      | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of burning the target.                            |
+| Head Smash      | Rock      | Physical | 150        | 180        | 225        | 1/2 of damage dealt |                                                              |
+| Light of Ruin   | Fairy     | Special  | 140        | 168        | 210        | 1/2 of damage dealt | This move is exclusive to a Pokémon that has never been legitimately available. |
+| Self-Destruct   | Normal    | Physical | 150        | 180        | 225        | 4/5 of user's maximum HP |                                                              |
+| Shadow End      | Shadow    | Physical | 120        | 144        | 180        | 1/2 of user's current HP |                                                              |
+| Shadow Rush     | Shadow    | Physical | 90         | 108        | 135        | 1/16 of user's maximum HP | 95% chance to land a critical hit when the Pokémon is in Hyper Mode |
+| Struggle        | Normal    | Physical | 50         | 60         | 75         | 1/4 of user's maximum HP | Hits Ghost-type Pokémon in Pokémon Stadium and from Generation II onward |
+| Volt Tackle     | Electric  | Physical | 120        | 144        | 180        | 1/3 of damage dealt | 10% chance of paralyzing the target                           |
+| Wave Crash      | Water     | Physical | 120        | 144        | 180        | 1/3 of damage dealt | Also raises the user's action speed in Legends: Arceus |
+| Wild Charge     | Electric  | Physical | 90         | 108        | 135        | 1/4 of damage dealt |                                                              |
+| Wood Hammer     | Grass     | Physical | 120        | 144        | 180        | 1/3 of damage dealt |                                                              |
+Notes:
+Chloroblast has been updated to its latest base power of 150.
+Wave Crash also reflects its latest base power of 120.
+
+
+
+
+
+Você disse:
+now to these:
+Pages in category "Moves that restore HP"
+The following 16 pages are in this category, out of 16 total.
+
+A
+Aqua Ring (move)
+F
+Floral Healing (move)
+G
+G-Max Finale (move)
+Grassy Terrain (move)
+H
+Heal Pulse (move)
+Healing Wish (move)
+I
+Ingrain (move)
+J
+Jungle Healing (move)
+L
+Leech Seed (move)
+Life Dew (move)
+Lunar Dance (move)
+P
+Pain Split (move)
+Pollen Puff (move)
+Present (move)
+R
+Revival Blessing (move)
+W
+Wish (move)
+O ChatGPT disse:
+ChatGPT
+Here's the markdown table for moves that restore HP, including columns for base power, +20% power, and +50% power. Moves that don't have a base power are noted accordingly.
+
+markdown
+Copiar código
+# Moves that Restore HP
+
+| Move            | Type        | Category | Base Power | +20% Power | +50% Power | Notes                                                                                  |
+|-----------------|-------------|----------|------------|------------|------------|----------------------------------------------------------------------------------------|
+| Aqua Ring       | Water        | Status   | —          | —          | —          | Restores 1/16 of the user's maximum HP each turn.                                      |
+| Floral Healing  | Grass        | Special  | —          | —          | —          | Restores 50% of the user's maximum HP and doubles the effect if on Grassy Terrain.      |
+| G-Max Finale    | Fairy        | Special  | —          | —          | —          | Deals damage and restores 50% of HP to allies if G-Max Finale is used in Max Raid Battles. |
+| Grassy Terrain  | Grass        | Status   | —          | —          | —          | Restores 1/16 of HP each turn to Pokémon on the ground and boosts Grass-type moves.      |
+| Heal Pulse      | Psychic      | Special  | —          | —          | —          | Restores 50% of the target's maximum HP.                                               |
+| Healing Wish    | Psychic      | Status   | —          | —          | —          | The user faints and restores the HP of the next Pokémon sent out to full HP.            |
+| Ingrain          | Grass        | Status   | —          | —          | —          | Restores 1/16 of the user's maximum HP each turn while the user is on the field.         |
+| Jungle Healing  | Grass        | Special  | —          | —          | —          | Restores 50% of the user's HP and removes all status conditions.                       |
+| Leech Seed      | Grass        | Status   | —          | —          | —          | Drains 1/8 of the target's HP each turn and restores it to the user.                   |
+| Life Dew         | Water        | Special  | —          | —          | —          | Restores 1/4 of the HP of all allied Pokémon.                                          |
+| Lunar Dance      | Psychic      | Status   | —          | —          | —          | The user faints, restoring the HP and status conditions of the next Pokémon sent out.  |
+| Pain Split       | Ghost        | Special  | —          | —          | —          | The user and target's HP are averaged out.                                             |
+| Pollen Puff      | Bug          | Special  | 90         | 108        | 135        | Restores 50% of the target's maximum HP if used on an ally.                           |
+| Present          | Normal       | Special  | —          | —          | —          | Has a 50% chance to restore 1/4 of the target's maximum HP, otherwise deals damage.   |
+| Revival Blessing | Fairy        | Status   | —          | —          | —          | Revives a fainted ally with half of its maximum HP.                                     |
+| Wish             | Psychic      | Status   | —          | —          | —          | Restores 50% of the user's maximum HP two turns later.                                 |
+Notes:
+G-Max Finale and Grassy Terrain are included with their latest effects, though they don’t have base power.
+Life Dew and Pollen Puff are listed with their base power values, including the effects on HP restoration.
+
+
+
+
+
+Você disse:
+Now, try to list all kicking moves.
+O ChatGPT disse:
+ChatGPT
+Here’s a list of kicking moves:
+
+Kicking Moves
+Move	Type	Category	Base Power	+20% Power	+50% Power	Notes
+High Jump Kick	Fighting	Physical	130	156	195	10% chance to miss and hurt the user.
+Jump Kick	Fighting	Physical	100	120	150	10% chance to miss and hurt the user.
+Low Kick	Fighting	Physical	20–120	24–144	30–180	Power depends on the target's weight.
+Rolling Kick	Fighting	Physical	60	72	90	Has a 30% chance to cause flinching.
+Triple Kick	Fighting	Physical	10 (x3)	12 (x3)	15 (x3)	Hits 3 times.
+Sacred Sword	Fighting	Physical	90	108	135	Ignores stat changes of the target.
+Trop Kick	Grass	Physical	70	84	105	Lowers the target's Attack stat.
+Pyro Ball	Fire	Physical	130	156	195	10% chance to burn the target.
+Aqua Step	Water	Physical	60	72	90	Boosts the user's Speed stat.
+Double Kick	Fighting	Physical	30	36	45	Hits twice.
+Triple Axel	Ice	Physical	20 (x3)	24 (x3)	30 (x3)	Hits 3 times.
+Notes:
+High Jump Kick and Jump Kick have high base power but a risk of damaging the user if they miss.
+Low Kick's power varies based on the opponent's weight.
+Rolling Kick has a chance to cause flinching, making it useful in disrupting opponents.
+Triple Kick and Triple Axel hit multiple times, potentially increasing their effectiveness.
+Trop Kick and Sacred Sword have additional effects like lowering stats or ignoring them.
+
+
+
+
+
+Você disse:
+do to y list of kicking moves:
+['Axe Kick', 'Blaze Kick', 'Double Kick', 'High Jump Kick', 
+                 'Jump Kick', 'Low Kick', 'Mega Kick', 'Rolling Kick', 
+                 'Stomp', 'Thunderous Kick', 'Triple Arrows', 'Triple Axel', 
+                 'Triple Kick', 'Pyro Ball', 'Aqua Step', 'Trop Kick', 'Triple Arrows']
+O ChatGPT disse:
+ChatGPT
+Here is the markdown table for the list of kicking moves you provided, including base power, +20% power, and +50% power:
+
+markdown
+Copiar código
+# Kicking Moves
+
+| Move             | Type      | Category | Base Power | +20% Power | +50% Power | Notes                                          |
+|------------------|-----------|----------|------------|------------|------------|------------------------------------------------|
+| Axe Kick         | Fighting  | Physical | 120        | 144        | 180        | 30% chance to cause flinching.                |
+| Blaze Kick       | Fire      | Physical | 85         | 102        | 127.5      | 10% chance to burn the target.                |
+| Double Kick      | Fighting  | Physical | 30         | 36         | 45         | Hits twice.                                    |
+| High Jump Kick   | Fighting  | Physical | 130        | 156        | 195        | 10% chance to miss and hurt the user.         |
+| Jump Kick        | Fighting  | Physical | 100        | 120        | 150        | 10% chance to miss and hurt the user.         |
+| Low Kick         | Fighting  | Physical | 20–120     | 24–144     | 30–180     | Power depends on the target's weight.         |
+| Mega Kick        | Fighting  | Physical | 120        | 144        | 180        | 5% chance to miss.                            |
+| Rolling Kick     | Fighting  | Physical | 60         | 72         | 90         | Has a 30% chance to cause flinching.          |
+| Stomp            | Normal    | Physical | 65         | 78         | 97.5       | 30% chance to cause flinching.                |
+| Thunderous Kick  | Electric  | Physical | 120        | 144        | 180        | 10% chance to paralyze the target.            |
+| Triple Arrows    | Grass     | Physical | 50 (x3)    | 60 (x3)    | 75 (x3)    | Hits 3 times, each hit has a 30% chance to cause a stat reduction. |
+| Triple Axel      | Ice       | Physical | 20 (x3)    | 24 (x3)    | 30 (x3)    | Hits 3 times.                                 |
+| Triple Kick      | Fighting  | Physical | 10 (x3)    | 12 (x3)    | 15 (x3)    | Hits 3 times.                                 |
+| Pyro Ball        | Fire      | Physical | 130        | 156        | 195        | 10% chance to burn the target.                |
+| Aqua Step        | Water     | Physical | 60         | 72         | 90         | Boosts the user's Speed stat.                 |
+| Trop Kick        | Grass     | Physical | 70         | 84         | 105        | Lowers the target's Attack stat.              |
+
+### Notes:
+- **Axe Kick** and **Blaze Kick** have a high base power with additional effects like causing flinching or burning.
+- **Double Kick** and **Triple Kick** hit multiple times, which can increase total damage.
+- **High Jump Kick** and **Jump Kick** have high base power but come with a risk of damaging the user if they miss.
+- **Low Kick**'s power varies depending on the target's weight.
+- **Mega Kick** has high base power but a higher chance of missing.
+- **Rolling Kick** and **Thunderous Kick** can cause additional effects like flinching or paralysis.
+- **Triple Arrows** and **Triple Axel** hit multiple times, each with its own effect.
+
+
+
+
+
+Você disse:
+do to them:
+cosmic_moves=['Draco Meteor', 'Meteor Mash', 'Cosmic Power', 'Cosmic Punch',
+              'Moonblast','Meteor Beam', 'Gravity', 'Roar of Time', 'Spacial Rend', 
+              'Meteor Assault', 'Meteor Beam', 'Dark Void', 'Blood Moon', 
+              'Moonlight', 'Moongeist Beam', 'Morning Sun', 'Sunsteel Strike'
+              'Swift', 'Prismatic Laser', 'Photon Geyser', 'Lunar Blessing', 
+              'Lunar Dance', 'Hyperspace Hole', 'Hyperspace Fury', 'Eternabeam']
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the list of cosmic moves you provided:
+
+markdown
+Copiar código
+# Cosmic Moves
+
+| Move              | Type        | Category | Base Power  | +20% Power | +50% Power | Notes                                             |
+|-------------------|-------------|----------|-------------|------------|------------|---------------------------------------------------|
+| Draco Meteor      | Dragon      | Special  | 130         | 156        | 195        | Lowers the user's Special Attack.                |
+| Meteor Mash       | Steel       | Physical | 100         | 120        | 150        | 10% chance to raise the user's Attack stat.      |
+| Cosmic Power      | Psychic     | Status   | -           | -          | -          | Raises the user's Defense and Special Defense.   |
+| Cosmic Punch      | Cosmic      | Physical | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Moonblast         | Fairy       | Special  | 95          | 114        | 142.5      | 30% chance to lower the target's Attack stat.    |
+| Meteor Beam       | Rock        | Special  | 120         | 144        | 180        | Requires a turn to charge.                      |
+| Gravity           | Psychic     | Status   | -           | -          | -          | Makes Flying-type Pokémon and levitating Pokémon susceptible to Ground-type moves. |
+| Roar of Time      | Dragon      | Special  | 150         | 180        | 225        | User must recharge after using this move.       |
+| Spacial Rend      | Dragon      | Special  | 100         | 120        | 150        | 20% chance to land a critical hit.              |
+| Meteor Assault    | Fighting    | Physical | 120         | 144        | 180        | User must recharge after using this move.       |
+| Dark Void         | Dark        | Status   | -           | -          | -          | Puts the target to sleep.                        |
+| Blood Moon        | Dark        | Special  | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Moonlight         | Fairy       | Status   | -           | -          | -          | Restores HP based on the time of day in battle. |
+| Moongeist Beam    | Ghost       | Special  | 100         | 120        | 150        | Ignores the target's abilities.                 |
+| Morning Sun       | Fire        | Status   | -           | -          | -          | Restores HP based on the time of day in battle. |
+| Sunsteel Strike   | Steel       | Physical | 100         | 120        | 150        | 10% chance to lower the target's Defense stat.  |
+| Swift             | Normal      | Special  | 60          | 72         | 90         | Never misses.                                   |
+| Prismatic Laser   | Psychic     | Special  | 160         | 192        | 240        | Requires a turn to charge.                      |
+| Photon Geyser      | Psychic     | Special  | 100         | 120        | 150        | Power depends on the higher of the user's Attack or Special Attack. |
+| Lunar Blessing     | Psychic     | Status   | -           | -          | -          | Not officially a move in current Pokémon games.  |
+| Lunar Dance        | Psychic     | Status   | -           | -          | -          | Restores the HP and PP of the user's team.      |
+| Hyperspace Hole    | Psychic     | Special  | 80          | 96         | 120        | Ignores the target's abilities.                 |
+| Hyperspace Fury    | Psychic     | Special  | 100         | 120        | 150        | Ignores the target's abilities.                 |
+| Eternabeam        | Dragon/Steel| Special  | 160         | 192        | 240        | Requires a turn to charge.                      |
+
+### Notes:
+- **Draco Meteor** and **Meteor Beam** have high base power with a requirement for a turn to charge or recoil.
+- **Moonblast** and **Moongeist Beam** have special effects like lowering the target’s stats or ignoring abilities.
+- **Cosmic Power** and **Gravity** are status moves with various effects on battle dynamics.
+- **Swift** is notable for never missing, while **Prismatic Laser** and **Eternabeam** are powerful but require charging turns.
+
+
+
+
+
+Você disse:
+now for these:
+light_moves=['Aurora Beam', 'Aurora Veil', 'Dazzling Gleam', 'Flash', 'Diamond Storm', 
+             'Lumina Crash', 'Flash Cannon', 'Glitzy Glow', 'Judgement', 'Light of Ruin',
+             'Light Screen', 'Light That Burns the Sky', 'Luster Purge', 'Tail Glow',
+             'Mirror Coat', 'Mirror Shot', 'Mirror Move', 'Moonlight', 'Power Gem',
+             'Prismatic Laser', 'Reflect', 'Signal Beam', 'Solar Beam', 'Solar Blade']
+O ChatGPT disse:
+ChatGPT
+Here’s the markdown table for the list of light moves:
+
+markdown
+Copiar código
+# Light Moves
+
+| Move                       | Type         | Category | Base Power | +20% Power | +50% Power | Notes                                             |
+|----------------------------|--------------|----------|------------|------------|------------|---------------------------------------------------|
+| Aurora Beam                | Ice          | Special  | 65         | 78         | 97.5       | 10% chance to lower the target's Attack stat.    |
+| Aurora Veil                | Ice          | Status   | -          | -          | -          | Reduces damage from Physical and Special moves.  |
+| Dazzling Gleam             | Fairy        | Special  | 80         | 96         | 120        | 20% chance to lower the target's Special Attack. |
+| Flash                      | Electric     | Special  | 70         | 84         | 105        | 30% chance to lower the target's Accuracy.       |
+| Diamond Storm              | Rock         | Physical | 100        | 120        | 150        | 50% chance to raise the user's Defense stat.     |
+| Lumina Crash               | Fairy        | Special  | 100        | 120        | 150        | 50% chance to lower the target's Special Defense.|
+| Flash Cannon               | Steel        | Special  | 80         | 96         | 120        | 10% chance to lower the target's Special Defense.|
+| Glitzy Glow                | Fairy        | Special  | 100        | 120        | 150        | 50% chance to lower the target's Special Defense.|
+| Judgement                  | Cosmic       | Special  | 100        | 120        | 150        | Damage type depends on the Plate or Z-Crystal.   |
+| Light of Ruin              | Fairy        | Special  | 140        | 168        | 210        | 50% recoil damage to the user.                  |
+| Light Screen               | Psychic      | Status   | -          | -          | -          | Reduces damage from Special moves.              |
+| Light That Burns the Sky   | Fire         | Special  | 150        | 180        | 225        | Requires a turn to charge.                      |
+| Luster Purge               | Psychic      | Special  | 70         | 84         | 105        | 50% chance to lower the target's Special Defense.|
+| Tail Glow                  | Bug          | Status   | -          | -          | -          | Raises the user's Special Attack stat.          |
+| Mirror Coat                | Water        | Special  | -          | -          | -          | Reflects damage back to the attacker.           |
+| Mirror Shot                | Steel        | Special  | 65         | 78         | 97.5       | 30% chance to lower the target's Accuracy.       |
+| Mirror Move                | Flying       | Status   | -          | -          | -          | Copies the last move used by the target.        |
+| Moonlight                  | Fairy        | Status   | -          | -          | -          | Restores HP based on the time of day in battle. |
+| Power Gem                  | Rock         | Special  | 70         | 84         | 105        | -                                                 |
+| Prismatic Laser            | Psychic      | Special  | 160        | 192        | 240        | Requires a turn to charge.                      |
+| Reflect                    | Psychic      | Status   | -          | -          | -          | Reduces damage from Physical moves.             |
+| Signal Beam                | Bug          | Special  | 75         | 90         | 112.5      | 10% chance to confuse the target.               |
+| Solar Beam                 | Grass        | Special  | 120        | 144        | 180        | Requires a turn to charge.                      |
+| Solar Blade                | Grass        | Physical | 125        | 150        | 187.5      | Requires a turn to charge.                      |
+Notes:
+Aurora Veil, Light Screen, and Reflect are status moves that affect damage reduction.
+Dazzling Gleam, Flash Cannon, and Moonlight have additional effects such as lowering stats or restoring HP.
+Light of Ruin and Light That Burns the Sky are powerful but come with significant recoil or charging requirements.
+
+
+
+
+
+Você disse:
+do for all wing based moves
+O ChatGPT disse:
+ChatGPT
+Here's the markdown table for the list of wing-based moves:
+
+markdown
+Copiar código
+# Wing-Based Moves
+
+| Move                 | Type       | Category | Base Power | +20% Power | +50% Power | Notes                                          |
+|----------------------|------------|----------|------------|------------|------------|------------------------------------------------|
+| Aeroblast            | Flying     | Special  | 100        | 120        | 150        | 5% chance to crit.                            |
+| Air Cutter            | Flying     | Special  | 60         | 72         | 90         | 50% chance to crit.                           |
+| Bleakwind Storm      | Flying     | Special  | 100        | 120        | 150        | -                                              |
+| Blizzard             | Ice        | Special  | 110        | 132        | 165        | 10% chance to freeze.                         |
+| Fairy Wind            | Fairy      | Special  | 40         | 48         | 60         | 10% chance to lower the target's Attack stat. |
+| Gust                  | Flying     | Special  | 40         | 48         | 60         | -                                              |
+| Heat Wave             | Fire       | Special  | 100        | 120        | 150        | 10% chance to burn.                           |
+| Hurricane             | Flying     | Special  | 110        | 132        | 165        | 30% chance to confuse the target.             |
+| Icy Wind              | Ice        | Special  | 55         | 66         | 82.5       | 100% chance to lower the target's Speed.      |
+| Petal Blizzard        | Grass      | Special  | 90         | 108        | 135        | 10% chance to freeze.                         |
+| Sandsear Storm        | Fire       | Special  | 120        | 144        | 180        | -                                              |
+| Sandstorm            | Rock       | Status   | -          | -          | -          | Boosts Rock-type moves and damages all Pokémon except Rock types. |
+| Springtide Storm      | Fairy      | Special  | 100        | 120        | 150        | -                                              |
+| Tailwind             | Flying     | Status   | -          | -          | -          | Doubles the Speed of all active Pokémon.      |
+| Twister              | Dragon     | Special  | 40         | 48         | 60         | 20% chance to confuse the target.             |
+| Whirlwind             | Flying     | Status   | -          | -          | -          | Forces the opponent to switch out.            |
+| Wildbolt Storm        | Electric   | Special  | 110        | 132        | 165        | -                                              |
+
+# Wing-Based Moves
+
+| Move          | Type   | Category | Base Power | +20% Power | +50% Power | Notes                     |
+|---------------|--------|----------|------------|------------|------------|---------------------------|
+| Wing Attack    | Flying | Physical | 60         | 72         | 90         | -                         |
+| Iron Wing      | Steel  | Physical | 60         | 72         | 90         | -                         |
+| Air Slash      | Flying | Special  | 75         | 90         | 112.5      | 30% chance to cause flinching. |
+| Wing Beat      | Flying | Physical | 40         | 48         | 60         | -                         |
+| Sky Attack     | Flying | Physical | 140        | 168        | 210        | Requires a turn to charge. |
+
+
+
+# Piercing Moves
+
+| Move            | Type     | Category | Base Power | +20% Power | +50% Power | Notes                                  |
+|-----------------|----------|----------|------------|------------|------------|----------------------------------------|
+| Horn Attack      | Bug      | Physical | 65         | 78         | 97.5       | -                                      |
+| Megahorn         | Bug      | Physical | 120        | 144        | 180        | -                                      |
+| Pin Missile      | Bug      | Physical | 25         | 30         | 37.5       | Hits 2-5 times.                        |
+| Twineedle        | Bug      | Physical | 25         | 30         | 37.5       | Hits 2 times, each hit may poison.     |
+| Drill Run        | Ground   | Physical | 80         | 96         | 120        | 30% chance to cause a critical hit.    |
+| Spike Cannon     | Normal   | Physical | 20         | 24         | 30         | Hits 2-5 times.                        |
+| Horn Leech       | Grass    | Physical | 75         | 90         | 112.5      | Heals 50% of the damage dealt.         |
+| Drill Peck       | Flying   | Physical | 80         | 96         | 120        | -                                      |
+| Icicle Spear     | Ice      | Physical | 25         | 30         | 37.5       | Hits 2-5 times.                        |
+| Needle Arm       | Grass    | Physical | 60         | 72         | 90         | 30% chance to cause flinching.         |
+
